@@ -21,7 +21,8 @@ def load_main_csv():
     """Load the main CSV of operator names and promotion images' URLs.
     This function exists so the data can be cached.
     """
-    data = pd.read_csv("static\\data\\operators_info.csv", na_values=[""])
+    csv_path = os.path.join("static", "data", "operators_info.csv")
+    data = pd.read_csv(csv_path, na_values=[""])
     return data
 
 
@@ -30,7 +31,8 @@ def load_colors_csv():
     """Load the CSV of operator names and theme colors.
     This function exists so the data can be cached.
     """
-    data = pd.read_csv("static\\data\\colors.csv", na_values=[""])
+    csv_path = os.path.join("static", "data", "colors.csv")
+    data = pd.read_csv(csv_path, na_values=[""])
     return data
 
 # Load the necessary data and sort it by alphabetical order of names

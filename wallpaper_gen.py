@@ -1,6 +1,7 @@
 from PIL import Image, ImageDraw
 import requests
 from io import BytesIO
+import os
 import utils
 
 DIMENSIONS = (640, 1280)
@@ -19,7 +20,8 @@ def main(img_name: str, e1_img_url: str, e2_img_url: str, operator_color: str) -
     has_e2_img = str(e2_img_url) != "nan"
 
     # Load the background
-    bg = Image.open("static\\resources\\bg.png", mode="r").convert("RGBA")
+    bg_path = os.path.join("static", "resources", "bg.png")
+    bg = Image.open(bg_path, mode="r").convert("RGBA")
 
     # Load E2 image if there is one
     if has_e2_img == True:
