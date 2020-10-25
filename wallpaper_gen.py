@@ -1,8 +1,6 @@
-import json
-from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageEnhance
+from PIL import Image, ImageDraw
 import requests
 from io import BytesIO
-import numpy as np
 import utils
 
 DIMENSIONS = (640, 1280)

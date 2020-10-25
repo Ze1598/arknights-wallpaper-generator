@@ -6,11 +6,9 @@ import streamlit as st
 
 E2_COORDS = [None, -100]
 
-# https://gist.github.com/blippy/a385dc77f9d74e4876d5
-
-
 def change_alpha(img: Image.Image, opacity: float) -> Image.Image:
     """Change the opacity of an image.
+    # https://gist.github.com/blippy/a385dc77f9d74e4876d5
     """
     # Get the alpha channel
     alpha = img.getchannel("A")
@@ -60,36 +58,25 @@ def increment_footer_color(operator_color: str, color_delta: str) -> str:
     """Increment the hexadecimal operator color using another color.
     """
     update_delta = 0.20
-    st.write(operator_color, int(operator_color[1:3], 16))
     channels = [
-        int(operator_color[1:3], 16), 
-        int(operator_color[3:5], 16), 
+        int(operator_color[1:3], 16),
+        int(operator_color[3:5], 16),
         int(operator_color[5:], 16)
     ]
-    st.write(channels)
     new_color = "0x"
-    st.write("max channels", max(channels))
     for value in channels:
-        st.write(max(channels), value, max(channels) == value)
         if (max(channels) == value) and (value != 255):
             updated_channel = int(value * (1+update_delta))
             if updated_channel > 255:
                 updated_channel = 255
-            st.write("updated_ channel:", updated_channel, hex(updated_channel))
             hex_channel = hex(updated_channel)[2:]
-            st.write("hex channel", hex_channel)
             new_color += hex_channel
         else:
             hex_conv = hex(value)[2:]
             if len(hex_conv) == 1:
                 hex_conv = "0" + hex_conv
             new_color += hex_conv
-        st.write("wip string", new_color)
 
-    # operator_color = operator_color.replace("#", "0x")
-    # footer_color = hex(int(operator_color, 16) - int(color_delta, 16))
-    # if int(footer_color, 16) < int("0x000", 16):
-    st.write(new_color)
     if int(new_color, 16) < int("0x000", 16):
         new_color = "0xFFF"
     new_color = new_color.replace("0x", "#")
