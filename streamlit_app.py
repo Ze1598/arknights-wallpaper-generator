@@ -66,6 +66,9 @@ operator_chosen = st.selectbox(
 chosen_op_data = main_data[main_data["name"] == operator_chosen]
 chosen_op_color = colors_data[colors_data["name"] == operator_chosen]
 
+# Let the user change the operator theme color
+custom_op_color = st.beta_color_picker("Feel free to change the operator theme color", chosen_op_color)
+
 # Create the wallpaper name string
 wallpaper_name = chosen_op_data["name"].iloc[0] + ".png"
 # Generator the wallpaper
@@ -73,7 +76,7 @@ wallpaper_gen.main(
     wallpaper_name,
     chosen_op_data["e1_img"].iloc[0],
     chosen_op_data["e2_img"].iloc[0],
-    chosen_op_color["color"].iloc[0]
+    custom_op_color
 )
 # Display the wallpaper
 st.image(wallpaper_name, use_column_width=True)
