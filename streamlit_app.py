@@ -88,7 +88,7 @@ skin_dropdown = st.selectbox(
 
 # Checkbox for swapping fore and background art (defaults to\
 # not swapping)
-swap_bg_fg = st.checkbox("Swap foreground and background art? (only available for 4-star and above operators)", value=False)
+swap_bg_fg = st.checkbox("Swap foreground and background art? Only available for 4-star and above operators, or operators with skins", value=False)
 
 # Set up what fore and background art to use
 img_info = {
