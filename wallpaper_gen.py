@@ -9,7 +9,7 @@ E2_ALPHA = 0.8
 SHADOW_OFFSET = 15
 
 
-def main(img_name: str, e1_img_url: str, e2_img_url: str, operator_color: str) -> None:
+def main(img_name: str, foreground_art: str, background_art: str, operator_color: str) -> None:
     """Given the necessary information, create a wallpaper for the operator using PIL.
     """
     # Create a new RGBA image
@@ -17,15 +17,16 @@ def main(img_name: str, e1_img_url: str, e2_img_url: str, operator_color: str) -
     draw = ImageDraw.Draw(wip_img)
 
     # Verify that the operator has E2 art (rather, there's an URL for it)
-    has_e2_img = str(e2_img_url) != "nan"
+    # has_e2_img = str(background_art) != "nan"
+    ignore_bg_image = background_art == ""
 
     # Load the background
     bg_path = os.path.join("static", "resources", "bg.png")
     bg = Image.open(bg_path, mode="r").convert("RGBA")
 
     # Load E2 image if there is one
-    if has_e2_img == True:
-        res = requests.get(e2_img_url)
+    if ignore_bg_image != True:
+        res = requests.get(background_art)
         e2_img = Image.open(BytesIO(res.content), mode="r").convert("RGBA")
         # Change the image's opacity
         e2_img = utils.change_alpha(e2_img, E2_ALPHA)
@@ -35,7 +36,7 @@ def main(img_name: str, e1_img_url: str, e2_img_url: str, operator_color: str) -
         e2_coords = utils.calculate_e2_coordinates(e2_img, DIMENSIONS)
 
     # Load E1 image
-    res = requests.get(e1_img_url)
+    res = requests.get(foreground_art)
     e1_img = Image.open(BytesIO(res.content), mode="r").resize(
         (1024, 1024)).convert("RGBA")
     # Calculate the drawing coordinates for the E1 image
@@ -51,7 +52,7 @@ def main(img_name: str, e1_img_url: str, e2_img_url: str, operator_color: str) -
     # Add the colored footer polygon
     utils.create_and_paste_footer(wip_img, operator_color)
     # Add the E2 image if there is one
-    if has_e2_img == True:
+    if ignore_bg_image != True:
         wip_img.paste(e2_img, e2_coords, mask=e2_img)
     # Add the E1 image shadow
     wip_img.paste(shadow, shadow_coords, mask=e1_img)

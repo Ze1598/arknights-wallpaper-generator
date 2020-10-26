@@ -1,8 +1,31 @@
 import os
 from PIL import Image, ImageEnhance, ImageDraw
-from typing import List
+from typing import List, Dict, Tuple
 import base64
 import streamlit as st
+
+
+def get_skins_names_urls(skins_data: List[List[Dict]], target_operator: str) -> List[Dict]:
+    """Given the full list of dictionaries of operator skins, find the dictionary that is about the desired operator.
+    """
+    skins = list()
+    skin_names = list()
+    skin_urls = list()
+    # Loop through the dictionaries of operators
+    for op_skins_dict in skins_data:
+        # Test if the dictionary has the target operator as a key
+        operator_skins = op_skins_dict.get(target_operator, None)
+        # If it did, then this is the dictionary we are looking for
+        if operator_skins != None:
+            skins = operator_skins
+
+    # Populate the last two lists: one for the names of all skins, another\
+    # for the respective skins' URLs (the indices match between the lists)
+    if skins != list():
+        skin_names = [list(skin.keys())[0] for skin in skins]
+        skin_urls = [skin[list(skin.keys())[0]] for skin in skins]
+
+    return skin_names, skin_urls
 
 
 def change_alpha(img: Image.Image, opacity: float) -> Image.Image:
@@ -25,16 +48,69 @@ def resize_img(img: Image.Image, factor: float) -> Image.Image:
     """
     # Make sure the image is in the default dimensions and is RGBA
     img = img.resize((1024, 1024)).convert("RGBA")
-    
+
     # Calculate new dimensions
     img_dims = img.size
     img_dims = [int(dim*factor) for dim in img_dims]
-    
+
     # Finally resize the image, keeping it RGBA
     img = img.resize(img_dims).convert("RGBA")
 
     return img
 
+
+def set_fore_background_art(
+    img_info: Dict
+) -> Tuple[str]:
+    """Based on various variables, set the foreground and background art URLs.
+    """
+    e1_art = img_info["e1_art"]
+    e2_art = img_info["e2_art"]
+    skin_names = img_info["skin_names"]
+    skin_urls = img_info["skin_urls"]
+    skin_chosen = img_info["skin_chosen"]
+    swap_art = img_info["swap_art"]
+    is_low_rank = img_info["is_low_rank"]
+    foreground_art = ""
+    background_art = ""
+
+    # Logic to choose the art that goes in the fore and background if a\
+    # skin was chosen, depending on custom options and the operator rank
+    if skin_chosen != "Base art":
+        # Get the URL for the chosen skin
+        chosen_skin_index = skin_names.index(skin_chosen)
+        skin_art = skin_urls[chosen_skin_index]
+
+        if (swap_art == True) and (is_low_rank == True):
+            foreground_art = skin_art
+            background_art = e1_art
+        elif (swap_art == True) and (is_low_rank == False):
+            foreground_art = skin_art
+            background_art = e2_art
+        elif (swap_art == False) and (is_low_rank == True):
+            foreground_art = e1_art
+            background_art = skin_art
+        elif (swap_art == False) and (is_low_rank == False):
+            foreground_art = e1_art
+            background_art = skin_art
+        
+    # Logic to choose the art that goes in the fore and background if a\
+    # skin was not chosen, depending on custom options and the operator rank
+    else:
+        if (swap_art == True) and (is_low_rank == True):
+            foreground_art = e1_art
+            background_art = e2_art
+        elif (swap_art == True) and (is_low_rank == False):
+            foreground_art = e2_art
+            background_art = e1_art
+        elif (swap_art == False) and (is_low_rank == True):
+            foreground_art = e1_art
+            background_art = e2_art
+        elif (swap_art == False) and (is_low_rank == False):
+            foreground_art = e1_art
+            background_art = e2_art
+    
+    return foreground_art, background_art
 
 def calculate_e2_coordinates(e2_img: Image.Image, img_dims: List[int]) -> List[int]:
     """Calculate the coordinates at which to draw the E2 image.
