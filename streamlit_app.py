@@ -66,6 +66,7 @@ operator_chosen = st.selectbox(
 chosen_op_data = main_data[main_data["name"] == operator_chosen]
 chosen_op_color = colors_data[colors_data["name"] == operator_chosen]
 
+st.write(chosen_op_color)
 # Let the user change the operator theme color
 custom_op_color = st.beta_color_picker("Feel free to change the operator theme color", chosen_op_color)
 
