@@ -17,7 +17,7 @@ For feedback, feel free to reach out to me on Twitter [@ze1598](https://twitter.
 
 
 @st.cache
-def load_main_csv():
+def load_main_csv(reset_cache=False):
     """Load the main CSV of operator names, promotion images' URLs and theme colors.
     This function exists so the data can be cached.
     """
@@ -26,7 +26,7 @@ def load_main_csv():
     return data
 
 @st.cache
-def load_skins_json():
+def load_skins_json(reset_cache=False):
     """Load the JSON with URLs to the skins' art.
     This function exists so the data can be cached.
     """
@@ -36,9 +36,9 @@ def load_skins_json():
     return data
 
 # Load the necessary data and sort it by alphabetical order of names
-main_data = load_main_csv()
+main_data = load_main_csv(reset_cache=True)
 main_data.sort_values(by="name", inplace=True)
-skins_data = load_skins_json()
+skins_data = load_skins_json(reset_cache=True)
 
 # Dropdown to filter by operator rank
 operator_rank = st.selectbox(
