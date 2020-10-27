@@ -36,9 +36,9 @@ def load_skins_json(reset_cache=False):
     return data
 
 # Load the necessary data and sort it by alphabetical order of names
-main_data = load_main_csv(reset_cache=True)
+main_data = load_main_csv()
 main_data.sort_values(by="name", inplace=True)
-skins_data = load_skins_json(reset_cache=True)
+skins_data = load_skins_json()
 
 # Dropdown to filter by operator rank
 operator_rank = st.selectbox(
