@@ -35,17 +35,17 @@ def main(img_name: str, foreground_art: str, background_art: str, operator_color
         # Center the E2 image horizontally
         e2_coords = utils.calculate_e2_coordinates(e2_img, DIMENSIONS)
 
-    # Load E1 image
+    # Load E0 image
     res = requests.get(foreground_art)
-    e1_img = Image.open(BytesIO(res.content), mode="r").resize(
+    e0_img = Image.open(BytesIO(res.content), mode="r").resize(
         (1024, 1024)).convert("RGBA")
-    # Calculate the drawing coordinates for the E1 image
-    e1_coords = utils.calculate_e1_coordinates(e1_img, DIMENSIONS)
+    # Calculate the drawing coordinates for the E0 image
+    e0_coords = utils.calculate_e0_coordinates(e0_img, DIMENSIONS)
     
-    # Create the E1 image shadow
-    shadow = Image.new("RGBA", e1_img.size, color=operator_color)
-    # Calculate the drawing coordinates for the E1 image shadow
-    shadow_coords = [coord+SHADOW_OFFSET for coord in e1_coords]
+    # Create the E0 image shadow
+    shadow = Image.new("RGBA", e0_img.size, color=operator_color)
+    # Calculate the drawing coordinates for the E0 image shadow
+    shadow_coords = [coord+SHADOW_OFFSET for coord in e0_coords]
 
     # Add the background
     wip_img.paste(bg)
@@ -54,10 +54,10 @@ def main(img_name: str, foreground_art: str, background_art: str, operator_color
     # Add the E2 image if there is one
     if ignore_bg_image != True:
         wip_img.paste(e2_img, e2_coords, mask=e2_img)
-    # Add the E1 image shadow
-    wip_img.paste(shadow, shadow_coords, mask=e1_img)
-    # Add the E1 image
-    wip_img.paste(e1_img, e1_coords, mask=e1_img)
+    # Add the E0 image shadow
+    wip_img.paste(shadow, shadow_coords, mask=e0_img)
+    # Add the E0 image
+    wip_img.paste(e0_img, e0_coords, mask=e0_img)
     # Save the resulting wallpaper
     wip_img.save(img_name)
 

@@ -64,7 +64,7 @@ def set_fore_background_art(
 ) -> Tuple[str]:
     """Based on various variables, set the foreground and background art URLs.
     """
-    e1_art = img_info["e1_art"]
+    e0_art = img_info["e0_art"]
     e2_art = img_info["e2_art"]
     skin_names = img_info["skin_names"]
     skin_urls = img_info["skin_urls"]
@@ -83,31 +83,31 @@ def set_fore_background_art(
 
         if (swap_art == True) and (is_low_rank == True):
             foreground_art = skin_art
-            background_art = e1_art
+            background_art = e0_art
         elif (swap_art == True) and (is_low_rank == False):
             foreground_art = skin_art
             background_art = e2_art
         elif (swap_art == False) and (is_low_rank == True):
-            foreground_art = e1_art
+            foreground_art = e0_art
             background_art = skin_art
         elif (swap_art == False) and (is_low_rank == False):
-            foreground_art = e1_art
+            foreground_art = e0_art
             background_art = skin_art
         
     # Logic to choose the art that goes in the fore and background if a\
     # skin was not chosen, depending on custom options and the operator rank
     else:
         if (swap_art == True) and (is_low_rank == True):
-            foreground_art = e1_art
+            foreground_art = e0_art
             background_art = e2_art
         elif (swap_art == True) and (is_low_rank == False):
             foreground_art = e2_art
-            background_art = e1_art
+            background_art = e0_art
         elif (swap_art == False) and (is_low_rank == True):
-            foreground_art = e1_art
+            foreground_art = e0_art
             background_art = e2_art
         elif (swap_art == False) and (is_low_rank == False):
-            foreground_art = e1_art
+            foreground_art = e0_art
             background_art = e2_art
     
     return foreground_art, background_art
@@ -124,18 +124,18 @@ def calculate_e2_coordinates(e2_img: Image.Image, img_dims: List[int]) -> List[i
     return e2_coords
 
 
-def calculate_e1_coordinates(e1_img: Image.Image, img_dims: List[int]) -> List[int]:
-    """Calculate the coordinates at which to draw the E1 image.
+def calculate_e0_coordinates(e0_img: Image.Image, img_dims: List[int]) -> List[int]:
+    """Calculate the coordinates at which to draw the E0 image.
     """
     # Both coordinates will change
-    e1_coords = [None, None]
-    e1_img_dims = e1_img.size
+    e0_coords = [None, None]
+    e0_img_dims = e0_img.size
     # The X/width is horizontally-aligned
-    e1_coords[0] = (img_dims[0] - e1_img_dims[0]) // 2
+    e0_coords[0] = (img_dims[0] - e0_img_dims[0]) // 2
     # The Y/height is bottom-aligned
-    e1_coords[1] = img_dims[1] - e1_img_dims[1]
+    e0_coords[1] = img_dims[1] - e0_img_dims[1]
 
-    return e1_coords
+    return e0_coords
 
 
 def increment_footer_color(operator_color: str) -> str:

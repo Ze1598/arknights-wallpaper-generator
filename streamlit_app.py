@@ -66,13 +66,13 @@ chosen_op_data = main_data[main_data["name"] == operator_chosen]
 operator_name = chosen_op_data["name"].iloc[0]
 operator_rank = chosen_op_data["num_stars"].iloc[0]
 is_low_rank = operator_rank in (1, 2, 3)
-e1_art = chosen_op_data["e1_img"].iloc[0]
+e0_art = chosen_op_data["e0_img"].iloc[0]
 e2_art = chosen_op_data["e2_img"].iloc[0]\
     if str(chosen_op_data["e2_img"].iloc[0]) != "nan" else ""
 op_default_color = chosen_op_data["color"].iloc[0]
 
 # By default, the foreground art is the base/E1 art
-foreground_art = e1_art
+foreground_art = e0_art
 # By default, the background art is the E2 art
 background_art = e2_art
 
@@ -92,7 +92,7 @@ swap_bg_fg = st.checkbox("Swap foreground and background art? Only available for
 
 # Set up what fore and background art to use
 img_info = {
-    "e1_art": e1_art,
+    "e0_art": e0_art,
     "e2_art": e2_art,
     "skin_names": op_skin_names,
     "skin_urls": op_skin_urls,
