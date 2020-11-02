@@ -8,12 +8,14 @@ from typing import Dict
 import logging
 logging.basicConfig(level=logging.INFO)
 
+
 def scrape_pages():
     """Given the page with the list of operators, scrape their names and individual pages' URL.
     This data is exported in a pickle file.
     """
     # Scrape the operator's names and page URLs
-    req = requests.get("https://gamepress.gg/arknights/tools/interactive-operator-list")
+    req = requests.get(
+        "https://gamepress.gg/arknights/tools/interactive-operator-list")
     soup = BeautifulSoup(req.content, "lxml")
 
     # Get all the table cells (<td>) with information about the operators
@@ -22,7 +24,8 @@ def scrape_pages():
     for op in op_list:
         # Get the name and their personal page from these HTML elements
         name = op.find("div", class_="operator-title").a.text
-        page = "https://gamepress.gg" + op.find("div", class_="operator-title").a["href"]
+        page = "https://gamepress.gg" + \
+            op.find("div", class_="operator-title").a["href"]
         # Add the new information to the dictionary
         op_dict[name] = page
         logging.info(f"{datetime.datetime.now()}: Found {name}")
@@ -30,9 +33,11 @@ def scrape_pages():
     # Write this dictionary to a pickle file
     with open("operator_pages.pickle", "wb") as f:
         pickle.dump(op_dict, f)
-        logging.info(f"{datetime.datetime.now()}: Created pickle file with operator pages")
+        logging.info(
+            f"{datetime.datetime.now()}: Created pickle file with operator pages")
 
 # -----------------------------------------------------------------------------
+
 
 def scrape_op_art(op_pages: Dict[str, str]) -> None:
     """Given a dictionary of operators and the URLs to their pages, scrape all their promotion and skins artwork.
@@ -91,13 +96,14 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
 
             # If the operator is Amiya, then we need to scrape her E1\
             # art since she has different arts for each promotion. Her E1\
-            # art will be stored as a skin 
+            # art will be stored as a skin
             if name == "Amiya":
                 op_skins[name].append({"E1 art": images[1].a["href"]})
 
             # Now get a list of all the availble skins' art URLs as a dictionary
             for i, skin_html in enumerate(skins_li):
-                op_skins[name].append({f"Skin {i+1}": "https://gamepress.gg" + skin_html.img["src"]})
+                op_skins[name].append(
+                    {f"Skin {i+1}": "https://gamepress.gg" + skin_html.img["src"]})
 
             # Add the new info to the running list
             skins_info.append(op_skins)
@@ -128,13 +134,14 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
     with open("skins_info.json", "w") as f:
         json.dump(skins_info, f, indent=2)
 
+
 if __name__ == "__main__":
     # Scrape the URLs to the operator pages
-    # scrape_pages()
+    scrape_pages()
 
     # Load the pickle file with the operator pages
     with open("operator_pages.pickle", "rb") as f:
         operator_pages = pickle.load(f)
-    
-    # Scrape the art URLs, exported as a CSV, and the skins as a JSON 
+
+    # Scrape the art URLs, exported as a CSV, and the skins as a JSON
     scrape_op_art(operator_pages)
