@@ -37,7 +37,7 @@ def load_skins_json():
     return data
 
 # Reset all app caches
-caching.clear_cache()
+# caching.clear_cache()
 # Load the necessary data and sort it by alphabetical order of names
 main_data = load_main_csv()
 main_data.sort_values(by="name", inplace=True)
