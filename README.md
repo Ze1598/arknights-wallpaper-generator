@@ -1,4 +1,4 @@
-# arknights-wallpaper-generator
+# arknights-wallpaper-generator [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ze1598/arknights-wallpaper-generator/main)
 [live app](https://share.streamlit.io/ze1598/arknights-wallpaper-generator/main)
 
 A web app built with [Streamlit](https://www.streamlit.io/) in Python to create Arknights mobile wallpapers on the fly.
