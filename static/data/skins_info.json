@@ -7,6 +7,13 @@
     ]
   },
   {
+    "Weedy": [
+      {
+        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/WeedyMansfieldBreakSkin.png"
+      }
+    ]
+  },
+  {
     "W": [
       {
         "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_113_cqbw_epoque%237.png"
@@ -75,7 +82,10 @@
   {
     "Saria": [
       {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtSariaSkinBloodlineOfCombat_0.png"
+        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/SariaMansfieldBreakSkin.png"
+      },
+      {
+        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtSariaSkinBloodlineOfCombat_0.png"
       }
     ]
   },
@@ -145,6 +155,13 @@
     "Leonhardt": [
       {
         "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
+      }
+    ]
+  },
+  {
+    "Elysium": [
+      {
+        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/ElysiumMansfieldBreakSkin.png"
       }
     ]
   },
@@ -245,7 +262,10 @@
   {
     "Firewatch": [
       {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFirewatchSkinWild.png"
+        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/FirewatchMansfieldBreakSkin.png"
+      },
+      {
+        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFirewatchSkinWild.png"
       }
     ]
   },

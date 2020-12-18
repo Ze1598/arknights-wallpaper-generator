@@ -1,4 +1,5 @@
 name,num_stars,e0_img,e2_img,has_e2,color
+Mountain,6,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_264_f12yin_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_264_f12yin_2.png,1,#C1B9B8
 Mudrock,6,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_311_mudrok_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_311_mudrok_2.png,1,#AB6262
 Rosmontis,6,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_391_rosmon_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_391_rosmon_2.png,1,#3A5BCC
 Blemishine,6,https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_423_blemsh_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_423_blemsh_2.png,1,#D1B199
@@ -31,6 +32,8 @@ Eyjafjalla,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_1
 Ifrit,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_134_ifrit_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_134_ifrit_2.png,1,#E26B27
 Siege,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_112_siege_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_112_siege_2.png,1,#BB9A50
 Exusiai,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_103_angel_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_103_angel_2.png,1,#8C314A
+Robin,5,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_451_robin_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_451_robin_2.png,1,#857D6C
+Kafka,5,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_214_kafka_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_214_kafka_2.png,1,#4BC2A1
 Amiya (Guard),5,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_1001_amiya2_2_0.png,,0,#F40E24
 Whisperain,5,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_436_whispr_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_436_whispr_2.png,1,#9999B6
 Aosta,5,https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_346_aosta_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_346_aosta_2.png,1,#B4B3A3
@@ -100,6 +103,7 @@ Franka,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_106_f
 Texas,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_102_texas_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_102_texas_2.png,1,#6A6A7B
 Zima,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_115_headbr_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_115_headbr_2.png,1,#86766D
 Ptilopsis,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_128_plosis_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_128_plosis_2.png,1,#F57E29
+Pinecone,4,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_440_pinecn_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-12/char_440_pinecn_2.png,1,#F9CCB2
 Bubble,4,https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_381_bubble_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_381_bubble_2.png,1,#956356
 Arene,4,https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_271_spikes_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_271_spikes_2.png,1,#D8E88F
 Aciddrop,4,https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_366_acdrop_1.png,https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_366_acdrop_2.png,1,#B1805E

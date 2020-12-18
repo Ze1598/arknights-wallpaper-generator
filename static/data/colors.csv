@@ -1,4 +1,5 @@
 ﻿name,color
+Mountain,#C1B9B8
 Mudrock,#AB6262
 Rosmontis,#3A5BCC
 Blemishine,#D1B199
@@ -31,6 +32,8 @@ Eyjafjalla,#B39A92
 Ifrit,#E26B27
 Siege,#BB9A50
 Exusiai,#8C314A
+Robin,#857D6C
+Kafka,#4BC2A1
 Amiya (Guard),#F40E24
 Whisperain,#9999B6
 Aosta,#B4B3A3
@@ -100,6 +103,7 @@ Franka,#8A5850
 Texas,#6A6A7B
 Zima,#86766D
 Ptilopsis,#F57E29
+Pinecone,#F9CCB2
 Bubble,#956356
 Arene,#D8E88F
 Aciddrop,#B1805E
