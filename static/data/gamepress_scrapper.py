@@ -140,8 +140,5 @@ if __name__ == "__main__":
     with open("operator_pages.pickle", "rb") as f:
         operator_pages = pickle.load(f)
 
-    # keep = ["Mountain", "Ceobe", "Absinthe"]
-    # keep = {name: operator_pages[name] for name in keep}
     # Scrape the art URLs, exported as a CSV, and the skins as a JSON
     scrape_op_art(operator_pages)
-    # scrape_op_art(keep)
