@@ -47,10 +47,10 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
     operators_info = list()
     # List to contain dictionaries of operator skins
     skins_info = list()
-    for operator in operator_pages:
+    for operator in op_pages:
         logging.info(f"{datetime.datetime.now()}: Scraping {operator}")
         name = operator
-        page = operator_pages[operator]
+        page = op_pages[operator]
 
         # Get the operator's page
         req = requests.get(page)
@@ -119,14 +119,11 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
         operators_info.append(operator_info)
 
     # Create a DF for the list of lists of operators
-    info_df = pd.DataFrame(operators_info)
-    info_df.columns = ["name", "num_stars", "e0_img", "e2_img", "has_e2"]
+    info_df = pd.DataFrame(operators_info, columns=["name", "num_stars", "e0_img", "e2_img", "has_e2"])
     # Load the CSV of operator colors
     colors_csv = pd.read_csv("colors.csv")
     # Join the two DFs
-    csv_info_join = info_df.join(colors_csv, rsuffix="__", how="inner")
-    # Remove the duplicated column of operator names
-    csv_info_join.drop(["name__"], axis="columns", inplace=True)
+    csv_info_join = info_df.merge(colors_csv, how="inner", on="name")
     # Export the complete DF as a CSV
     csv_info_join.to_csv("operators_info.csv", index=False)
 
@@ -143,5 +140,8 @@ if __name__ == "__main__":
     with open("operator_pages.pickle", "rb") as f:
         operator_pages = pickle.load(f)
 
+    # keep = ["Mountain", "Ceobe", "Absinthe"]
+    # keep = {name: operator_pages[name] for name in keep}
     # Scrape the art URLs, exported as a CSV, and the skins as a JSON
     scrape_op_art(operator_pages)
+    # scrape_op_art(keep)
