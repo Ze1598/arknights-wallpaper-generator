@@ -9,7 +9,13 @@ ART_ALPHA = 0.8
 SHADOW_OFFSET = 15
 
 
-def main(img_name: str, foreground_art: str, background_art: str, operator_color: str) -> None:
+def main(
+    img_name: str, 
+    foreground_art: str, 
+    background_art: str,
+    wallpaper_bg: str,
+    operator_color: str
+) -> None:
     """Given the necessary information, create a wallpaper for the operator using PIL.
     """
     # Create a new RGBA image
@@ -22,7 +28,10 @@ def main(img_name: str, foreground_art: str, background_art: str, operator_color
     using_single_art = any((ignore_bg_image, ignore_fg_image))
 
     # Load the base image background
-    bg_path = os.path.join("static", "resources", "bg.png")
+    if wallpaper_bg == "":
+        bg_path = os.path.join("static", "resources", "bg.png")
+    else:
+        bg_path = wallpaper_bg
     bg = Image.open(bg_path, mode="r").convert("RGBA")
 
     # Load background art if there is one

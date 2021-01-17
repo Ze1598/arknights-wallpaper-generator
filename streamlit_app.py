@@ -1,4 +1,6 @@
 from typing import Dict
+
+from PIL import Image
 import streamlit as st
 from streamlit import caching
 import pandas as pd
@@ -105,6 +107,17 @@ background_art = st.selectbox(
     art_choices
 )
 
+# Upload a custom background image for the wallpaper
+custom_bg_img = st.file_uploader(
+    "You can upload a custom background image to replace the default black one with 640x1280 dimensions (otherwise it is resized)", 
+    type=["png", "jpg"]
+)
+# Save the uploaded image (deleted from the server at the end of the script)
+if custom_bg_img != None:
+    custom_bg_name = "custom_bg_img.png"
+    custom_bg_path = os.path.join("static", "resources", custom_bg_name)
+    pil_custom_bg_img = Image.open(custom_bg_img).resize((640, 1280)).save(custom_bg_path)
+
 # Change the operator theme color
 custom_op_color = st.beta_color_picker(
     "Feel free to change the operator theme color", op_default_color)
@@ -124,11 +137,14 @@ bg_art_url = utils.get_art_url(background_art, operator_info)
 
 # Create the image name string
 wallpaper_name = operator_name + ".png"
+wallpaper_bg_path = custom_bg_path if custom_bg_img != None else ""
+
 # Generate the wallpaper
 wallpaper_gen.main(
     wallpaper_name,
     fg_art_url,
     bg_art_url,
+    wallpaper_bg_path,
     custom_op_color
 )
 # Display the wallpaper
@@ -142,3 +158,4 @@ st.markdown(href, unsafe_allow_html=True)
 
 # Delete the graphic from the server
 os.remove(wallpaper_name)
+os.remove(custom_bg_path)
