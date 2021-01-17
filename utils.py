@@ -1,3 +1,4 @@
+from io import BytesIO
 import os
 from PIL import Image, ImageEnhance, ImageDraw
 from typing import List, Dict, Tuple
@@ -5,27 +6,35 @@ import base64
 import streamlit as st
 
 
-def get_skins_names_urls(skins_data: List[List[Dict]], target_operator: str) -> List[Dict]:
-    """Given the full list of dictionaries of operator skins, find the dictionary that is about the desired operator.
+def get_art_url(selected_art: str, operator_info: Dict) -> str:
+    """Get the URL for the selected operator art (fore or background).
     """
-    skins = list()
-    skin_names = list()
-    skin_urls = list()
-    # Loop through the dictionaries of operators
-    for op_skins_dict in skins_data:
-        # Test if the dictionary has the target operator as a key
-        operator_skins = op_skins_dict.get(target_operator, None)
-        # If it did, then this is the dictionary we are looking for
-        if operator_skins != None:
-            skins = operator_skins
+    if selected_art in ("E0 art", "E2 art"):
+        art_url = operator_info[selected_art]
+    elif selected_art == "None":
+        art_url = ""
+    else:
+        art_url = operator_info["skins"][selected_art]
+    return art_url
 
-    # Populate the last two lists: one for the names of all skins, another\
-    # for the respective skins' URLs (the indices match between the lists)
-    if skins != list():
-        skin_names = [list(skin.keys())[0] for skin in skins]
-        skin_urls = [skin[list(skin.keys())[0]] for skin in skins]
 
-    return skin_names, skin_urls
+def create_avail_art_options(
+    skins_names: Tuple,
+    operator_name: str,
+    e2_art: str
+) -> List[str]:
+    """Create a list with the available art to choose for the operator.
+    """
+    art_choices = ["E0 art", "E2 art"] if e2_art != "" else ["E0 art"]
+    art_choices += skins_names
+
+    # UX change for the only operator with a E1 art
+    if operator_name == "Amiya":
+        art_choices.sort()
+
+    # Let the user not have fore/background art
+    art_choices += ["None"]
+    return art_choices
 
 
 def change_alpha(img: Image.Image, opacity: float) -> Image.Image:
@@ -59,83 +68,84 @@ def resize_img(img: Image.Image, factor: float) -> Image.Image:
     return img
 
 
-def set_fore_background_art(
-    img_info: Dict
-) -> Tuple[str]:
-    """Based on various variables, set the foreground and background art URLs.
-    """
-    e0_art = img_info["e0_art"]
-    e2_art = img_info["e2_art"]
-    skin_names = img_info["skin_names"]
-    skin_urls = img_info["skin_urls"]
-    skin_chosen = img_info["skin_chosen"]
-    swap_art = img_info["swap_art"]
-    is_low_rank = img_info["is_low_rank"]
-    foreground_art = ""
-    background_art = ""
-
-    # Logic to choose the art that goes in the fore and background if a\
-    # skin was chosen, depending on custom options and the operator rank
-    if skin_chosen != "Base art":
-        # Get the URL for the chosen skin
-        chosen_skin_index = skin_names.index(skin_chosen)
-        skin_art = skin_urls[chosen_skin_index]
-
-        if (swap_art == True) and (is_low_rank == True):
-            foreground_art = skin_art
-            background_art = e0_art
-        elif (swap_art == True) and (is_low_rank == False):
-            foreground_art = skin_art
-            background_art = e2_art
-        elif (swap_art == False) and (is_low_rank == True):
-            foreground_art = e0_art
-            background_art = skin_art
-        elif (swap_art == False) and (is_low_rank == False):
-            foreground_art = e0_art
-            background_art = skin_art
-        
-    # Logic to choose the art that goes in the fore and background if a\
-    # skin was not chosen, depending on custom options and the operator rank
-    else:
-        if (swap_art == True) and (is_low_rank == True):
-            foreground_art = e0_art
-            background_art = e2_art
-        elif (swap_art == True) and (is_low_rank == False):
-            foreground_art = e2_art
-            background_art = e0_art
-        elif (swap_art == False) and (is_low_rank == True):
-            foreground_art = e0_art
-            background_art = e2_art
-        elif (swap_art == False) and (is_low_rank == False):
-            foreground_art = e0_art
-            background_art = e2_art
-    
-    return foreground_art, background_art
-
-def calculate_e2_coordinates(e2_img: Image.Image, img_dims: List[int]) -> List[int]:
-    """Calculate the coordinates at which to draw the E2 image.
+def calculate_bg_coordinates(bg_art: Image.Image, wip_img_dims: List[int]) -> List[int]:
+    """Calculate the coordinates at which to draw the background image.
     """
     # Lis of coordinates (the Y/height coordinate won't change)
-    e2_coords = [None, -100]
+    bg_coords = [None, -100]
     # The X/width coordinate is horizontally-aligned
-    e2_img_dims = e2_img.size
-    e2_coords[0] = (img_dims[0] - e2_img_dims[0]) // 2
+    bg_art_dims = bg_art.size
+    bg_coords[0] = (wip_img_dims[0] - bg_art_dims[0]) // 2
 
-    return e2_coords
+    return bg_coords
 
 
-def calculate_e0_coordinates(e0_img: Image.Image, img_dims: List[int]) -> List[int]:
-    """Calculate the coordinates at which to draw the E0 image.
+def calculate_foreground_coordinates(art: Image.Image, wip_img_dims: List[int]) -> List[int]:
+    """Calculate the coordinates at which to draw the foreground art.
     """
     # Both coordinates will change
-    e0_coords = [None, None]
-    e0_img_dims = e0_img.size
+    art_coords = [None, None]
+    art_dims = art.size
     # The X/width is horizontally-aligned
-    e0_coords[0] = (img_dims[0] - e0_img_dims[0]) // 2
+    art_coords[0] = (wip_img_dims[0] - art_dims[0]) // 2
     # The Y/height is bottom-aligned
-    e0_coords[1] = img_dims[1] - e0_img_dims[1]
+    art_coords[1] = wip_img_dims[1] - art_dims[1]
 
-    return e0_coords
+    return art_coords
+
+
+def calculate_centered_coordinates(art: Image.Image, wip_img_dims: List[int]) -> List[int]:
+    """Calculate the centered coordinates at which to draw the art.
+    """
+    # Both coordinates will change
+    art_coords = [None, None]
+    art_dims = art.size
+    # Both coordinates are centered
+    art_coords[0] = (wip_img_dims[0] - art_dims[0]) // 2
+    art_coords[1] = (wip_img_dims[1] - art_dims[1]) // 2
+
+    return art_coords
+
+
+def prepare_loaded_bg_art(res, img_dimensions, alpha):
+    """Load the background art after making a GET request to it, process it and calculate the coordinates at which to draw it.
+    """
+    # Load the art from the request and process it
+    art = Image\
+        .open(BytesIO(res.content), mode="r")\
+        .resize((1024, 1024))\
+        .convert("RGBA")
+
+    # Change the image's opacity
+    art = change_alpha(art, alpha)
+    # Resize the image
+    art = resize_img(art, 1.05)
+    # Center the BG art horizontally
+    art_coords = calculate_bg_coordinates(art, img_dimensions)
+
+    return (art, art_coords)
+
+
+def prepare_loaded_art(res, img_dimensions, art_type: str):
+    """Load the art after making a GET request to it, process it and calculate the coordinates at which to draw it.
+    """
+    # Load the art from the request and process it
+    art = Image\
+        .open(BytesIO(res.content), mode="r")\
+        .resize((1024, 1024))\
+        .convert("RGBA")
+
+    # Center the art if it's the only art used
+    if art_type == "single":
+        art_coords = calculate_centered_coordinates(art, img_dimensions)
+    # Otherwise bottom-align it
+    elif art_type == "normal":
+        art_coords = calculate_foreground_coordinates(art, img_dimensions)
+    # Default
+    else:
+        art_coords = calculate_foreground_coordinates(art, img_dimensions)
+
+    return (art, art_coords)
 
 
 def increment_footer_color(operator_color: str) -> str:
