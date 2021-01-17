@@ -1,587 +1,259 @@
-[
-  {
-    "Suzuran": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_358_lisa_wild%233.png"
-      }
-    ]
-  },
-  {
-    "Weedy": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/WeedyMansfieldBreakSkin.png"
-      }
-    ]
-  },
-  {
-    "W": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_113_cqbw_epoque%237.png"
-      }
-    ]
-  },
-  {
-    "Phantom": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_250_phatom_ghost%231.png"
-      }
-    ]
-  },
-  {
-    "Ceobe": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_2013_cerber_summer%234.png"
-      }
-    ]
-  },
-  {
-    "Mostima": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_213_mostma_epoque%235.png"
-      }
-    ]
-  },
-  {
-    "Magallan": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/char_248_mgllan_kitchen%231.png"
-      }
-    ]
-  },
-  {
-    "Schwarz": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSchwarzSkinSnow.png"
-      }
-    ]
-  },
-  {
-    "Ch'en": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtChenSkinNian.png"
-      }
-    ]
-  },
-  {
-    "Skadi": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_263_skadi_summer%233.png"
-      }
-    ]
-  },
-  {
-    "SilverAsh": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_172_svrash_summer%234.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSilverAshSkinSnow_0.png"
-      }
-    ]
-  },
-  {
-    "Saria": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/SariaMansfieldBreakSkin.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtSariaSkinBloodlineOfCombat_0.png"
-      }
-    ]
-  },
-  {
-    "Hoshiguma": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_136_hsguma_nian%233.png"
-      }
-    ]
-  },
-  {
-    "Nightingale": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtNightengaleSkinHalloween.png"
-      }
-    ]
-  },
-  {
-    "Shining": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtShiningSkinSummer.png"
-      }
-    ]
-  },
-  {
-    "Angelina": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtAngelinaSkinBloodlineOfCombat_0.png"
-      }
-    ]
-  },
-  {
-    "Ifrit": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtIfritSkinHalloween.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtIfritSkinSummer_2.png"
-      }
-    ]
-  },
-  {
-    "Siege": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSiegeSkinWild_1.png"
-      }
-    ]
-  },
-  {
-    "Exusiai": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinKFC.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinWild.png"
-      }
-    ]
-  },
-  {
-    "April": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_365_aprl_wild%233.png"
-      }
-    ]
-  },
-  {
-    "Leonhardt": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
-      }
-    ]
-  },
-  {
-    "Elysium": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/ElysiumMansfieldBreakSkin.png"
-      }
-    ]
-  },
-  {
-    "GreyThroat": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_367_swllow_boc1.png"
-      }
-    ]
-  },
-  {
-    "Executor": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_279_excu_boc1.png"
-      }
-    ]
-  },
-  {
-    "Astesia": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_274_astesi_epoque%235.png"
-      }
-    ]
-  },
-  {
-    "Glaucus": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_326_glacus_ghost%231.png"
-      }
-    ]
-  },
-  {
-    "Swire": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSwireSkinNian.png"
-      }
-    ]
-  },
-  {
-    "Grani": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/GraniSkin.png"
-      }
-    ]
-  },
-  {
-    "Nightmare": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/ArtNightmareSkin.png"
-      }
-    ]
-  },
-  {
-    "FEater": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFeaterSkinMarthe.png"
-      }
-    ]
-  },
-  {
-    "Manticore": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/ArtManticoreSkinInvisibleDirge.png"
-      }
-    ]
-  },
-  {
-    "Sora": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSoraSkinSummer_0.png"
-      }
-    ]
-  },
-  {
-    "Istina": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/char_195_glassb_kitchen%231.png"
-      }
-    ]
-  },
-  {
-    "Pramanix": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPramanixSkinSnow.png"
-      }
-    ]
-  },
-  {
-    "Cliffheart": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/ArtCliffheartSkinWWFHighlandWanderer.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCliffheartSkinWild.png"
-      }
-    ]
-  },
-  {
-    "Firewatch": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/FirewatchMansfieldBreakSkin.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFirewatchSkinWild.png"
-      }
-    ]
-  },
-  {
-    "Provence": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_145_prove_sumer%233.png"
-      }
-    ]
-  },
-  {
-    "Croissant": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_201_moeshd_summer%234.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCroissantSkinKFC.png"
-      }
-    ]
-  },
-  {
-    "Liskarm": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtLiskarmSkinNian_0.png"
-      }
-    ]
-  },
-  {
-    "Nearl": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_148_nearl_summer%232.png"
-      }
-    ]
-  },
-  {
-    "Warfarin": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtWarfarinSkinHalloween.png"
-      }
-    ]
-  },
-  {
-    "Silence": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSilenceSkinSweep.png"
-      }
-    ]
-  },
-  {
-    "Mayer": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_242_otter_ghost%231.png"
-      }
-    ]
-  },
-  {
-    "Skyfire": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSkyfireSkinSummer.png"
-      }
-    ]
-  },
-  {
-    "Amiya": [
-      {
-        "E1 art": "https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_002_amiya_1%2B.png"
-      },
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-04/char_002_amiya_epoque%234boverlay.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-01/char_002_amiya_winter%231_1.png"
-      }
-    ]
-  },
-  {
-    "Meteorite": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMeteoriteSkinSweep_0.png"
-      }
-    ]
-  },
-  {
-    "Platinum": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_204_platnm_sumer%233.png"
-      }
-    ]
-  },
-  {
-    "Specter": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGhostSkinUndercurrent.png"
-      }
-    ]
-  },
-  {
-    "Lappland": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_140_whitew_boc1.png"
-      }
-    ]
-  },
-  {
-    "Texas": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_102_texas_epoque%237.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtTexasSkinWinterMessenger.png"
-      }
-    ]
-  },
-  {
-    "Zima": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_115_headbr_marthe%232_0.png"
-      }
-    ]
-  },
-  {
-    "Ptilopsis": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPtilopsisSkinEpoque.png"
-      }
-    ]
-  },
-  {
-    "Utage": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_337_utage_summer%234.png"
-      }
-    ]
-  },
-  {
-    "Ethan": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_355_ethan_epoque%237.png"
-      }
-    ]
-  },
-  {
-    "Greyy": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/GreyySkin.png"
-      }
-    ]
-  },
-  {
-    "Beehunter": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/char_137_brownb_kitchen%231.png"
-      }
-    ]
-  },
-  {
-    "Shaw": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/ShawSkin.png"
-      }
-    ]
-  },
-  {
-    "Gummy": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGummySkinSummer.png"
-      }
-    ]
-  },
-  {
-    "Cuora": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCuoraSkinWild.png"
-      }
-    ]
-  },
-  {
-    "Matterhorn": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMatterhornSkinSummer.png"
-      }
-    ]
-  },
-  {
-    "Perfumer": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPerfumerSkin1.png"
-      }
-    ]
-  },
-  {
-    "Gavial": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_187_ccheal_epoque%232.png"
-      }
-    ]
-  },
-  {
-    "Myrrh": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMyrrhSkinWild.png"
-      }
-    ]
-  },
-  {
-    "Rope": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_236_rope_summer%232.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtRopeSkinHolloween_0.png"
-      }
-    ]
-  },
-  {
-    "Dobermann": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_130_doberm_epoque%237.png"
-      }
-    ]
-  },
-  {
-    "Vigna": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtVignaSkinSummer.png"
-      }
-    ]
-  },
-  {
-    "Courier": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCourierSkin.png"
-      }
-    ]
-  },
-  {
-    "Jessica": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtJessicaSkinNian.png"
-      },
-      {
-        "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtJessicaSkinSweep.png"
-      },
-      {
-        "Skin 3": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtJessicaSkinWild.png"
-      }
-    ]
-  },
-  {
-    "Gitano": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGitanoSkinEpoque.png"
-      }
-    ]
-  },
-  {
-    "Midnight": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_283_midn_boc1.png"
-      }
-    ]
-  },
-  {
-    "Ansel": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtAnselSkinSummer.png"
-      }
-    ]
-  },
-  {
-    "Hibiscus": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtHibiscusSkinDark_0.png"
-      }
-    ]
-  },
-  {
-    "Kroos": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtKroosSkinHalloween.png"
-      }
-    ]
-  },
-  {
-    "Beagle": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtBeagleSkinFearless.png"
-      }
-    ]
-  },
-  {
-    "Cardigan": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCardiganSkinSnow.png"
-      }
-    ]
-  },
-  {
-    "Melantha": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMelanthaSkinEpoque.png"
-      }
-    ]
-  },
-  {
-    "Fang": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-01/char_123_fang_winter%231.png"
-      }
-    ]
-  },
-  {
-    "Castle-3": [
-      {
-        "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCastle3SkinSummer.png"
-      }
-    ]
+{
+  "Suzuran": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_358_lisa_wild%233.png"
+  },
+  "Weedy": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/WeedyMansfieldBreakSkin.png"
+  },
+  "W": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_113_cqbw_epoque%237.png"
+  },
+  "Phantom": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_250_phatom_ghost%231.png"
+  },
+  "Ceobe": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_2013_cerber_summer%234.png"
+  },
+  "Mostima": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_213_mostma_epoque%235.png"
+  },
+  "Magallan": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/char_248_mgllan_kitchen%231.png"
+  },
+  "Schwarz": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSchwarzSkinSnow.png"
+  },
+  "Ch'en": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtChenSkinNian.png"
+  },
+  "Skadi": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_263_skadi_summer%233.png"
+  },
+  "SilverAsh": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_172_svrash_summer%234.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSilverAshSkinSnow_0.png"
+  },
+  "Saria": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/SariaMansfieldBreakSkin.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtSariaSkinBloodlineOfCombat_0.png"
+  },
+  "Hoshiguma": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_136_hsguma_nian%233.png"
+  },
+  "Nightingale": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtNightengaleSkinHalloween.png"
+  },
+  "Shining": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtShiningSkinSummer.png"
+  },
+  "Angelina": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtAngelinaSkinBloodlineOfCombat_0.png"
+  },
+  "Ifrit": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtIfritSkinHalloween.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtIfritSkinSummer_2.png"
+  },
+  "Siege": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSiegeSkinWild_1.png"
+  },
+  "Exusiai": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinKFC.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinWild.png"
+  },
+  "April": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_365_aprl_wild%233.png"
+  },
+  "Leonhardt": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
+  },
+  "Elysium": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/ElysiumMansfieldBreakSkin.png"
+  },
+  "Bibeak": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_252_bibeak_winter%232.png"
+  },
+  "GreyThroat": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_367_swllow_boc1.png"
+  },
+  "Executor": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_279_excu_boc1.png"
+  },
+  "Astesia": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_274_astesi_epoque%235.png"
+  },
+  "Glaucus": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_326_glacus_ghost%231.png"
+  },
+  "Swire": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSwireSkinNian.png"
+  },
+  "Grani": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/GraniSkin.png"
+  },
+  "Nightmare": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/ArtNightmareSkin.png"
+  },
+  "FEater": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFeaterSkinMarthe.png"
+  },
+  "Manticore": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/ArtManticoreSkinInvisibleDirge.png"
+  },
+  "Sora": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSoraSkinSummer_0.png"
+  },
+  "Istina": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/char_195_glassb_kitchen%231.png"
+  },
+  "Pramanix": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPramanixSkinSnow.png"
+  },
+  "Cliffheart": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/ArtCliffheartSkinWWFHighlandWanderer.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCliffheartSkinWild.png"
+  },
+  "Firewatch": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/FirewatchMansfieldBreakSkin.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFirewatchSkinWild.png"
+  },
+  "Provence": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_145_prove_sumer%233.png"
+  },
+  "Croissant": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_201_moeshd_summer%234.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCroissantSkinKFC.png"
+  },
+  "Liskarm": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtLiskarmSkinNian_0.png"
+  },
+  "Nearl": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_148_nearl_summer%232.png"
+  },
+  "Warfarin": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtWarfarinSkinHalloween.png"
+  },
+  "Silence": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_108_silent_winter%232.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSilenceSkinSweep.png"
+  },
+  "Mayer": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_242_otter_ghost%231.png"
+  },
+  "Skyfire": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSkyfireSkinSummer.png"
+  },
+  "Amiya": {
+    "E1 art": "https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_002_amiya_1%2B.png",
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-04/char_002_amiya_epoque%234boverlay.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-01/char_002_amiya_winter%231_1.png"
+  },
+  "Meteorite": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMeteoriteSkinSweep_0.png"
+  },
+  "Platinum": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_204_platnm_sumer%233.png"
+  },
+  "Specter": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGhostSkinUndercurrent.png"
+  },
+  "Lappland": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_140_whitew_boc1.png"
+  },
+  "Texas": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_102_texas_epoque%237.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtTexasSkinWinterMessenger.png"
+  },
+  "Zima": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_115_headbr_marthe%232_0.png"
+  },
+  "Ptilopsis": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPtilopsisSkinEpoque.png"
+  },
+  "Arene": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_271_spikes_winter%232.png"
+  },
+  "Utage": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_337_utage_summer%234.png"
+  },
+  "Ethan": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_355_ethan_epoque%237.png"
+  },
+  "Greyy": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/GreyySkin.png"
+  },
+  "Beehunter": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/char_137_brownb_kitchen%231.png"
+  },
+  "Shaw": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/ShawSkin.png"
+  },
+  "Gummy": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGummySkinSummer.png"
+  },
+  "Cuora": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCuoraSkinWild.png"
+  },
+  "Matterhorn": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMatterhornSkinSummer.png"
+  },
+  "Perfumer": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPerfumerSkin1.png"
+  },
+  "Gavial": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_187_ccheal_epoque%232.png"
+  },
+  "Myrrh": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMyrrhSkinWild.png"
+  },
+  "Rope": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_236_rope_summer%232.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtRopeSkinHolloween_0.png"
+  },
+  "Gravel": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_237_gravel_winter%232.png"
+  },
+  "Dobermann": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/char_130_doberm_epoque%237.png"
+  },
+  "Vigna": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtVignaSkinSummer.png"
+  },
+  "Courier": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCourierSkin.png"
+  },
+  "Jessica": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtJessicaSkinNian.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtJessicaSkinSweep.png",
+    "Skin 3": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtJessicaSkinWild.png"
+  },
+  "Gitano": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGitanoSkinEpoque.png"
+  },
+  "Midnight": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_283_midn_boc1.png"
+  },
+  "Ansel": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtAnselSkinSummer.png"
+  },
+  "Hibiscus": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtHibiscusSkinDark_0.png"
+  },
+  "Kroos": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtKroosSkinHalloween.png"
+  },
+  "Beagle": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtBeagleSkinFearless.png"
+  },
+  "Cardigan": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCardiganSkinSnow.png"
+  },
+  "Melantha": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMelanthaSkinEpoque.png"
+  },
+  "Fang": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-01/char_123_fang_winter%231.png"
+  },
+  "Castle-3": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCastle3SkinSummer.png"
   }
-]
+}

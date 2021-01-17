@@ -1,3 +1,4 @@
+from typing import Dict
 import streamlit as st
 from streamlit import caching
 import pandas as pd
@@ -26,6 +27,7 @@ def load_main_csv():
     data = pd.read_csv(csv_path, na_values=[""])
     return data
 
+
 @st.cache
 def load_skins_json():
     """Load the JSON with URLs to the skins' art.
@@ -35,6 +37,7 @@ def load_skins_json():
     with open(json_path, "r") as f:
         data = json.load(f)
     return data
+
 
 # Reset all app caches
 # caching.clear_cache()
@@ -58,13 +61,16 @@ for star in range(1, 7):
     if operator_rank == option:
         filtered_data = main_data[main_data["num_stars"] == int(star)]
 
+operator_rank_int = int(operator_rank[0])
+filtered_data = main_data.query(f"num_stars == {operator_rank_int}")
+
 # Dropdown to choose the operator
 operator_chosen = st.selectbox(
-    "Choose your operator", 
+    "Choose your operator",
     filtered_data["name"].to_numpy()
 )
 
-# Get the data for the chosen operator
+# Get data for the chosen operator
 chosen_op_data = main_data[main_data["name"] == operator_chosen]
 operator_name = chosen_op_data["name"].iloc[0]
 operator_rank = chosen_op_data["num_stars"].iloc[0]
@@ -80,45 +86,49 @@ foreground_art = e0_art
 background_art = e2_art
 
 # Get lists of skin names and their respective art URLs
-op_skin_names, op_skin_urls = utils.get_skins_names_urls(skins_data, operator_name)
+skins_available = skins_data.get(operator_name, None)
+skin_names = tuple(skins_available.keys())\
+    if skins_available != None else tuple()
 
-# Dropdown for choosing between the E1/base art and a skin
-skin_options = ["Base art"] + op_skin_names
-skin_dropdown = st.selectbox(
-    "Do you want to use a skin for your operator? Please note that, by default, it is used as the background art",
-    skin_options
+# List of available art to choose from (promotion and skins)
+art_choices = utils.create_avail_art_options(skin_names, operator_name, e2_art)
+# Foreground art must always be selected
+fg_art_choices = art_choices[:-1]
+
+# Choose the fore and background art individually
+foreground_art = st.selectbox(
+    "Which art do you want in the front?",
+    fg_art_choices
+)
+background_art = st.selectbox(
+    "Which art do you want in the back?",
+    art_choices
 )
 
-# Checkbox for swapping fore and background art (defaults to\
-# not swapping)
-swap_bg_fg = st.checkbox("Swap foreground and background art? Only available for 4-star and above operators, or operators with skins", value=False)
+# Change the operator theme color
+custom_op_color = st.beta_color_picker(
+    "Feel free to change the operator theme color", op_default_color)
 
-# Set up what fore and background art to use
-img_info = {
-    "e0_art": e0_art,
-    "e2_art": e2_art,
-    "skin_names": op_skin_names,
-    "skin_urls": op_skin_urls,
-    "skin_chosen": skin_dropdown,
-    "swap_art": swap_bg_fg,
-    "is_low_rank": is_low_rank,
+# Put together relevant operator information in a single dictionary
+operator_info = {
+    "E0 art": e0_art,
+    "E2 art": e2_art,
+    "skins": skins_available,
+    "bg_chosen": background_art,
+    "fg_chosen": foreground_art
 }
-foreground_art, background_art = utils.set_fore_background_art(img_info)
 
-# If the checkbox is ticked, then the wallpaper will not have the background art
-remove_background = st.checkbox("Remove background art?", value=False)
-background_art = "" if remove_background == True else background_art
+# Get the url for fore and background art
+fg_art_url = utils.get_art_url(foreground_art, operator_info)
+bg_art_url = utils.get_art_url(background_art, operator_info)
 
-# Let the user change the operator theme color
-custom_op_color = st.beta_color_picker("Feel free to change the operator theme color", op_default_color)
-
-# Create the wallpaper name string
+# Create the image name string
 wallpaper_name = operator_name + ".png"
-# Generator the wallpaper
+# Generate the wallpaper
 wallpaper_gen.main(
     wallpaper_name,
-    foreground_art,
-    background_art,
+    fg_art_url,
+    bg_art_url,
     custom_op_color
 )
 # Display the wallpaper

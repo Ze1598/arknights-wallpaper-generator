@@ -28,7 +28,8 @@ def scrape_pages():
             op.find("div", class_="operator-title").a["href"]
         # Add the new information to the dictionary
         op_dict[name] = page
-        logging.info(f"{datetime.datetime.now()}: Found {name}")
+        # logging.info(f"{datetime.datetime.now()}: Found {name}")
+    logging.info(f"{datetime.datetime.now()}: Found {len(op_list)} operators")
 
     # Write this dictionary to a pickle file
     with open("operator_pages.pickle", "wb") as f:
@@ -46,7 +47,7 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
     # List to contain lists of individual operator information
     operators_info = list()
     # List to contain dictionaries of operator skins
-    skins_info = list()
+    skins_info = dict()
     for operator in op_pages:
         logging.info(f"{datetime.datetime.now()}: Scraping {operator}")
         name = operator
@@ -92,21 +93,20 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
             _start = -1
             _stop = -num_skins-1
             skins_li = images[_start: _stop: -1]
-            op_skins = {name: []}
+            op_skins = dict()
 
             # If the operator is Amiya, then we need to scrape her E1\
             # art since she has different arts for each promotion. Her E1\
             # art will be stored as a skin
             if name == "Amiya":
-                op_skins[name].append({"E1 art": images[1].a["href"]})
+                op_skins["E1 art"] = images[1].a["href"]
 
             # Now get a list of all the availble skins' art URLs as a dictionary
             for i, skin_html in enumerate(skins_li):
-                op_skins[name].append(
-                    {f"Skin {i+1}": "https://gamepress.gg" + skin_html.img["src"]})
+                op_skins[f"Skin {i+1}"] = f"https://gamepress.gg{skin_html.img['src']}"
 
             # Add the new info to the running list
-            skins_info.append(op_skins)
+            skins_info[name] = op_skins
 
             # Reset this list so skins' information does not carry over for the\
             # next operator
@@ -117,7 +117,7 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
         # Add this operator's info to the running list
         operator_info = [name, num_stars, e0_img, e2_img, has_e2]
         operators_info.append(operator_info)
-
+    
     # Create a DF for the list of lists of operators
     info_df = pd.DataFrame(operators_info, columns=["name", "num_stars", "e0_img", "e2_img", "has_e2"])
     # Load the CSV of operator colors
@@ -140,5 +140,14 @@ if __name__ == "__main__":
     with open("operator_pages.pickle", "rb") as f:
         operator_pages = pickle.load(f)
 
+    """
+    # Test dictionary
+    operator_pages = {
+        "SilverAsh": "https://gamepress.gg/arknights/operator/silverash",
+        "Amiya": "https://gamepress.gg/arknights/operator/amiya",
+        "THRM-EX": "https://gamepress.gg/arknights/operator/thrm-ex",
+        "Lancet-2": "https://gamepress.gg/arknights/operator/lancet-2"
+    }
+    """
     # Scrape the art URLs, exported as a CSV, and the skins as a JSON
     scrape_op_art(operator_pages)
