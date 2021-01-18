@@ -1,5 +1,3 @@
-from typing import Dict
-
 from PIL import Image
 import streamlit as st
 from streamlit import caching
@@ -8,6 +6,7 @@ import json
 import os
 import wallpaper_gen
 import utils
+st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.markdown("""
 # Arknights Phone Wallpaper Generator
@@ -158,4 +157,7 @@ st.markdown(href, unsafe_allow_html=True)
 
 # Delete the graphic from the server
 os.remove(wallpaper_name)
-os.remove(custom_bg_path)
+try:
+    os.remove(custom_bg_path)
+except:
+    pass
