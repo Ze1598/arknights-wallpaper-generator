@@ -11,8 +11,17 @@
   "Phantom": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_250_phatom_ghost%231.png"
   },
+  "Bagpipe": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-11/BagpipeSkin.png"
+  },
   "Ceobe": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_2013_cerber_summer%234.png"
+  },
+  "Nian": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-02/char_2014_nian_nian%234-2.png"
+  },
+  "Aak": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-02/char_225_haak_nian%234.png"
   },
   "Mostima": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_213_mostma_epoque%235.png"
@@ -71,6 +80,9 @@
   },
   "Bibeak": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_252_bibeak_winter%232.png"
+  },
+  "Hung": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-02/char_226_hmau_nian%234.png"
   },
   "GreyThroat": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_367_swllow_boc1.png"
