@@ -118,7 +118,7 @@ if custom_bg_img != None:
     pil_custom_bg_img = Image.open(custom_bg_img).resize((640, 1280)).save(custom_bg_path)
 
 # Change the operator theme color
-custom_op_color = st.beta_color_picker(
+custom_op_color = st.color_picker(
     "Feel free to change the operator theme color", op_default_color)
 
 # Put together relevant operator information in a single dictionary
