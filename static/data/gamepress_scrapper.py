@@ -9,6 +9,21 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 
+def get_num_operators() -> int:
+    """Get the number of operators available on Gamepress.
+    """
+    req = requests.get(
+        "https://gamepress.gg/arknights/tools/interactive-operator-list")
+    soup = BeautifulSoup(req.content, "lxml")
+
+    # Each operator has its td element with this class
+    op_list = soup.find_all("td", class_="operator-cell")
+    # Get the number of operators available
+    num_operators = len(op_list)
+
+    return num_operators
+
+
 def scrape_pages():
     """Given the page with the list of operators, scrape their names and individual pages' URL.
     This data is exported in a pickle file.
@@ -34,10 +49,7 @@ def scrape_pages():
     # Write this dictionary to a pickle file
     with open("operator_pages.pickle", "wb") as f:
         pickle.dump(op_dict, f)
-        logging.info(
-            f"{datetime.datetime.now()}: Created pickle file with operator pages")
-
-# -----------------------------------------------------------------------------
+        logging.info(f"{datetime.datetime.now()}: Created pickle file with operator pages")
 
 
 def scrape_op_art(op_pages: Dict[str, str]) -> None:
@@ -48,6 +60,8 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
     operators_info = list()
     # List to contain dictionaries of operator skins
     skins_info = dict()
+
+    # Loop through available operators
     for operator in op_pages:
         logging.info(f"{datetime.datetime.now()}: Scraping {operator}")
         name = operator
@@ -132,14 +146,35 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
         json.dump(skins_info, f, indent=2)
 
 
-if __name__ == "__main__":
-    # Scrape the URLs to the operator pages
-    scrape_pages()
-
+def main():
     # Load the pickle file with the operator pages
     with open("operator_pages.pickle", "rb") as f:
         operator_pages = pickle.load(f)
+    
+    # Get the number of operators in the pickle and on Gamepress
+    num_operators_pickle = len(operator_pages.keys())
+    num_operators_gamepress = get_num_operators()
 
+    # If the pickle has as many operators as Gamepress, use this pickle
+    # and get the operators' art
+    if num_operators_pickle == num_operators_gamepress:
+        logging.info(f"{datetime.datetime.now()}: Pickle up to date. Scraping operator art")
+        scrape_op_art(operator_pages)
+    
+    # Otherwise, we need to scrape all operators again, load the new pickle
+    # and finally get the operators' art
+    else:
+        logging.info(f"{datetime.datetime.now()}: Pickle outdated. Scraping operators from scratch")
+        scrape_pages()
+        with open("operator_pages.pickle", "rb") as f:
+            operator_pages = pickle.load(f)
+        scrape_op_art(operator_pages)
+
+
+if __name__ == "__main__":
+    main()
+    
+    # Kept for tests
     """
     # Test dictionary
     operator_pages = {
@@ -148,6 +183,5 @@ if __name__ == "__main__":
         "THRM-EX": "https://gamepress.gg/arknights/operator/thrm-ex",
         "Lancet-2": "https://gamepress.gg/arknights/operator/lancet-2"
     }
+    #scrape_op_art(operator_pages)
     """
-    # Scrape the art URLs, exported as a CSV, and the skins as a JSON
-    scrape_op_art(operator_pages)
