@@ -24,7 +24,7 @@ def get_num_operators() -> int:
     return num_operators
 
 
-def scrape_pages():
+def scrape_pages() -> None:
     """Given the page with the list of operators, scrape their names and individual pages' URL.
     This data is exported in a pickle file.
     """
@@ -146,7 +146,7 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
         json.dump(skins_info, f, indent=2)
 
 
-def main():
+def main() -> None:
     # Load the pickle file with the operator pages
     with open("operator_pages.pickle", "rb") as f:
         operator_pages = pickle.load(f)
