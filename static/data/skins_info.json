@@ -2,6 +2,12 @@
   "Ash": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-03/char_456_ash_rainbow6%231_0.png"
   },
+  "Mountain": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_264_f12yin_boc%233.png"
+  },
+  "Eunectes": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_416_zumama_boc%233-2.png"
+  },
   "Suzuran": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_358_lisa_wild%233.png"
   },
@@ -25,6 +31,9 @@
   },
   "Aak": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-02/char_225_haak_nian%234.png"
+  },
+  "Blaze": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_017_huang_as%231.png"
   },
   "Mostima": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_213_mostma_epoque%235.png"
@@ -87,6 +96,9 @@
   },
   "Flint": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_415_flint_boc%233-2.png"
+  },
+  "Ayerscarpe": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_294_ayer_boc%233-2.png"
   },
   "Leonhardt": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
@@ -263,6 +275,9 @@
   },
   "Gitano": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGitanoSkinEpoque.png"
+  },
+  "Spot": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_284_spot_boc%233-2.png"
   },
   "Midnight": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_283_midn_boc1.png"
