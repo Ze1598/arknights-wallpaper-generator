@@ -78,7 +78,11 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtShiningSkinSummer.png"
   },
   "Angelina": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtAngelinaSkinBloodlineOfCombat_0.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/%E7%AB%8B%E7%BB%98_%E5%AE%89%E6%B4%81%E8%8E%89%E5%A8%9C_skin2.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/ArtAngelinaSkinBloodlineOfCombat_0.png"
+  },
+  "Eyjafjalla": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_skin1.png"
   },
   "Ifrit": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtIfritSkinHalloween.png",
@@ -103,11 +107,23 @@
   "Flint": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_415_flint_boc%233-2.png"
   },
+  "Tomimi": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/%E7%AB%8B%E7%BB%98_%E7%89%B9%E7%B1%B3%E7%B1%B3_skin1.png"
+  },
+  "Beeswax": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/char_344_beewax_epoque%239.png"
+  },
   "Ayerscarpe": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_294_ayer_boc%233-2.png"
   },
+  "Folinic": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-06/FolinicSkin.png"
+  },
   "Leonhardt": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
+  },
+  "Tsukinogi": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/char_343_tknogi_epoque%239-2.png"
   },
   "Elysium": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-12/ElysiumMansfieldBreakSkin.png"
@@ -163,7 +179,8 @@
     "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFirewatchSkinWild.png"
   },
   "Provence": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_145_prove_sumer%233.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/%E7%AB%8B%E7%BB%98_%E6%99%AE%E7%BD%97%E6%97%BA%E6%96%AF_skin2.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_145_prove_sumer%233.png"
   },
   "Croissant": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_201_moeshd_summer%234.png",
@@ -224,6 +241,9 @@
   "Arene": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_271_spikes_winter%232.png"
   },
+  "Podenco": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/char_258_podego_epoque%239-2.png"
+  },
   "Utage": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_337_utage_summer%234.png"
   },
@@ -249,7 +269,8 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtMatterhornSkinSummer.png"
   },
   "Perfumer": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPerfumerSkin1.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/char_181_flower_epoque%239.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPerfumerSkin1.png"
   },
   "Gavial": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-03/char_187_ccheal_epoque%232.png"

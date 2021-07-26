@@ -175,13 +175,11 @@ if __name__ == "__main__":
     main()
     
     # Kept for tests
-    """
     # Test dictionary
-    operator_pages = {
-        "SilverAsh": "https://gamepress.gg/arknights/operator/silverash",
-        "Amiya": "https://gamepress.gg/arknights/operator/amiya",
-        "THRM-EX": "https://gamepress.gg/arknights/operator/thrm-ex",
-        "Lancet-2": "https://gamepress.gg/arknights/operator/lancet-2"
-    }
-    #scrape_op_art(operator_pages)
-    """
+    # operator_pages = {
+    #     "SilverAsh": "https://gamepress.gg/arknights/operator/silverash",
+    #     "Amiya": "https://gamepress.gg/arknights/operator/amiya",
+    #     "THRM-EX": "https://gamepress.gg/arknights/operator/thrm-ex",
+    #     "Lancet-2": "https://gamepress.gg/arknights/operator/lancet-2"
+    # }
+    # #scrape_op_art(operator_pages)
