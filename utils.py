@@ -113,8 +113,8 @@ def prepare_loaded_bg_art(res, img_dimensions, alpha):
     # Load the art from the request and process it
     art = Image\
         .open(BytesIO(res.content), mode="r")\
-        .resize((1024, 1024))\
-        .convert("RGBA")
+        .convert("RGBA")\
+        .resize((1024, 1024))
 
     # Change the image's opacity
     art = change_alpha(art, alpha)
@@ -132,8 +132,8 @@ def prepare_loaded_art(res, img_dimensions, art_type: str):
     # Load the art from the request and process it
     art = Image\
         .open(BytesIO(res.content), mode="r")\
-        .resize((1024, 1024))\
-        .convert("RGBA")
+        .convert("RGBA")\
+        .resize((1024, 1024))
 
     # Center the art if it's the only art used
     if art_type == "single":
