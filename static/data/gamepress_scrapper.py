@@ -1,3 +1,4 @@
+from io import BytesIO
 from bs4 import BeautifulSoup
 import requests
 import pickle
@@ -5,6 +6,7 @@ import json
 import datetime
 import pandas as pd
 from typing import Dict
+from colorthief import ColorThief
 import logging
 logging.basicConfig(level=logging.INFO)
 
@@ -52,6 +54,24 @@ def scrape_pages() -> None:
         logging.info(f"{datetime.datetime.now()}: Created pickle file with operator pages")
 
 
+def gen_operator_colour(art_url: str) -> str:
+    """Generate a colour for an operator by detecting the most dominant colour on their E0 art.
+    """
+    # Request the image
+    img_req = requests.get(art_url)
+    # Read the response content
+    img_bytes = BytesIO(img_req.content)
+    # Create a ColorThief object for the image (in bytes)
+    colour_thief = ColorThief(img_bytes)
+    # Build a colour palette
+    palette = colour_thief.get_palette(color_count=2)
+    # Convert the generated colour to hex
+    colour_chosen = palette[0]
+    colour_chosen = f"#{colour_chosen[0]:02x}{colour_chosen[1]:02x}{colour_chosen[2]:02x}"
+    # Return only the most dominant colour
+    return colour_chosen
+
+
 def scrape_op_art(op_pages: Dict[str, str]) -> None:
     """Given a dictionary of operators and the URLs to their pages, scrape all their promotion and skins artwork.
     """
@@ -94,6 +114,10 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
         # Find the operator's rank by counting the number of stars they have
         num_stars = len(soup.find("div", class_="rarity-cell").find_all("img"))
 
+        # Generate the operator colour
+        # Based on E2 art if they have it, otherwise E0
+        operator_colour = gen_operator_colour(e2_img) if e2_img != "" else gen_operator_colour(e0_img)
+
         # HTML unordered list (<ul>) of skins
         skins_ul = soup.find("ul", class_="skin-image-tabs")
         # Count the number of items in the list above to know the number of skins available
@@ -129,17 +153,19 @@ def scrape_op_art(op_pages: Dict[str, str]) -> None:
             op_skins = list()
 
         # Add this operator's info to the running list
-        operator_info = [name, num_stars, e0_img, e2_img, has_e2]
+        operator_info = [name, num_stars, e0_img, e2_img, has_e2, operator_colour]
         operators_info.append(operator_info)
+
     
     # Create a DF for the list of lists of operators
-    info_df = pd.DataFrame(operators_info, columns=["name", "num_stars", "e0_img", "e2_img", "has_e2"])
+    info_df = pd.DataFrame(operators_info, columns=["name", "num_stars", "e0_img", "e2_img", "has_e2", "color"])
     # Load the CSV of operator colors
-    colors_csv = pd.read_csv("colors.csv")
+    # colors_csv = pd.read_csv("colors.csv")
     # Join the two DFs
-    csv_info_join = info_df.merge(colors_csv, how="inner", on="name")
+    # csv_info_join = info_df.merge(colors_csv, how="inner", on="name")
     # Export the complete DF as a CSV
-    csv_info_join.to_csv("operators_info.csv", index=False)
+    # csv_info_join.to_csv("operators_info.csv", index=False)
+    info_df.to_csv("operators_info.csv", index=False)
 
     # Export the list of skins dictionaries as a JSON
     with open("skins_info.json", "w") as f:
@@ -175,11 +201,10 @@ if __name__ == "__main__":
     main()
     
     # Kept for tests
-    # Test dictionary
     # operator_pages = {
     #     "SilverAsh": "https://gamepress.gg/arknights/operator/silverash",
     #     "Amiya": "https://gamepress.gg/arknights/operator/amiya",
     #     "THRM-EX": "https://gamepress.gg/arknights/operator/thrm-ex",
     #     "Lancet-2": "https://gamepress.gg/arknights/operator/lancet-2"
     # }
-    # #scrape_op_art(operator_pages)
+    # scrape_op_art(operator_pages)
