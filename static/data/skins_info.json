@@ -2,6 +2,9 @@
   "Pallas": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_485_pallas_epoque%2312-2.png"
   },
+  "Carnelian": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-12/char_426_billro_snow%233.png"
+  },
   "Ash": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-03/char_456_ash_rainbow6%231_0.png"
   },
@@ -117,6 +120,9 @@
   "Robin": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-12/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%AE%BE_skin1.png"
   },
+  "Kafka": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-12/char_214_kafka_snow%233.png"
+  },
   "Whisperain": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-02/WhisperainSkinFull.png"
   },
@@ -145,7 +151,8 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-06/FolinicSkin.png"
   },
   "Leonhardt": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-12/char_373_lionhd_snow%233-2.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_373_lionhd_wild%233.png"
   },
   "Tsukinogi": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/char_343_tknogi_epoque%239-2.png"
@@ -276,6 +283,9 @@
   },
   "Ptilopsis": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtPtilopsisSkinEpoque.png"
+  },
+  "Beanstalk": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-12/char_452_bstalk_snow%234-2.png"
   },
   "Pinecone": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-09/char_440_pinecn_shining%231.png"
