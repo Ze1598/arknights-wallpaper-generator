@@ -1,4 +1,7 @@
 name,num_stars,e0_img,e2_img,has_e2,color
+Lumen,6,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_4042_lumen_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_4042_lumen_2.png,1,#59657b
+Irene,6,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_4009_irene_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_4009_irene_2.png,1,#4f5455
+Specter the Unchained,6,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_1023_ghost2_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_1023_ghost2_2.png,1,#42526a
 Horn,6,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4039_horn_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4039_horn_2.png,1,#514639
 Fiammetta,6,https://gamepress.gg/arknights/sites/arknights/files/2022-03/char_300_phenxi_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-03/char_300_phenxi_2.png,1,#604034
 Goldenglow,6,https://gamepress.gg/arknights/sites/arknights/files/2022-02/char_377_gdglow_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-02/char_377_gdglow_2.png,1,#484051
@@ -54,6 +57,7 @@ Eyjafjalla,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_1
 Ifrit,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_134_ifrit_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_134_ifrit_2.png,1,#876957
 Siege,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_112_siege_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_112_siege_2.png,1,#3d3426
 Exusiai,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_103_angel_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_103_angel_2.png,1,#baa99b
+Windflit,5,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_433_windft_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-05/char_433_windft_2.png,1,#4f5055
 Rockrock,5,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4040_rockr_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4040_rockr_2.png,1,#454349
 Heidi,5,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4045_heidi_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4045_heidi_2.png,1,#5c4d53
 Kazemaru,5,https://gamepress.gg/arknights/sites/arknights/files/2022-03/char_4016_kazema_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-03/char_4016_kazema_2.png,1,#b19099
@@ -235,7 +239,7 @@ Durin,2,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_501_du
 Rangers,2,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_503_rang_1.png,,0,#2f3239
 Noir Corne,2,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_500_noirc_1.png,,0,#343639
 Yato,2,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_502_nblade_1.png,,0,#372c32
-"""Justice Knight""",1,https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_4000_jnight_1.png,,0,#4d4c47
+'Justice Knight',1,https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_4000_jnight_1.png,,0,#4d4c47
 THRM-EX,1,https://gamepress.gg/arknights/sites/arknights/files/2020-04/char_376_therex_1.png,,0,#383432
 Castle-3,1,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_286_cast3_1.png,,0,#3e3a33
 Lancet-2,1,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_285_medic2_1.png,,0,#3c3b36
