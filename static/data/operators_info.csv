@@ -1,4 +1,8 @@
 name,num_stars,e0_img,e2_img,has_e2,color
+Vigil,6,https://gamepress.gg/arknights/sites/arknights/files/2022-10/Vigil.jpeg,,0,#b1b0b1
+Penance,6,https://gamepress.gg/arknights/sites/arknights/files/2022-10/Penance.jpeg,,0,#b1aead
+Texas the Omertosa,6,https://gamepress.gg/arknights/sites/arknights/files/2022-10/TexasTheOmertosa.jpeg,,0,#bfbaac
+Stainless,6,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_2.png,1,#564e4f
 Młynar,6,https://gamepress.gg/arknights/sites/arknights/files/2022-09/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-09/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_2.png,1,#b99e88
 Pozyomka (Позёмка),6,https://gamepress.gg/arknights/sites/arknights/files/2022-08/char_4055_bgsnow_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-08/char_4055_bgsnow_2.png,1,#babcd2
 Gavial the Invincible,6,https://gamepress.gg/arknights/sites/arknights/files/2022-08/char_1026_gvial2_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-08/char_1026_gvial2_2.png,1,#574d4b
@@ -62,6 +66,11 @@ Eyjafjalla,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_1
 Ifrit,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_134_ifrit_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_134_ifrit_2.png,1,#876957
 Siege,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_112_siege_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_112_siege_2.png,1,#3d3426
 Exusiai,6,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_103_angel_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_103_angel_2.png,1,#baa99b
+Qanipalaat,5,https://gamepress.gg/arknights/sites/arknights/files/2022-10/Qaanipalaat.jpeg,,0,#2f2e31
+Lunacub,5,https://gamepress.gg/arknights/sites/arknights/files/2022-10/Lunacub.jpeg,,0,#b3b2b2
+Paprika,5,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_2.png,1,#c8b7bb
+Dagda,5,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_2.png,1,#302424
+Highmore,5,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_2.png,1,#a7b0c8
 Proviso,5,https://gamepress.gg/arknights/sites/arknights/files/2022-09/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-09/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_2.png,1,#b0c7a5
 Cantabile,5,https://gamepress.gg/arknights/sites/arknights/files/2022-08/char_497_ctable_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-08/char_497_ctable_2.png,1,#5f606a
 Minimalist,5,https://gamepress.gg/arknights/sites/arknights/files/2022-08/%E7%AB%8B%E7%BB%98_%E8%87%B3%E7%AE%80_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-08/%E7%AB%8B%E7%BB%98_%E8%87%B3%E7%AE%80_2.png,1,#b8b9b8
@@ -176,6 +185,9 @@ Franka,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_106_f
 Texas,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_102_texas_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_102_texas_2.png,1,#b3b0b8
 Zima,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_115_headbr_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_115_headbr_2.png,1,#4c3434
 Ptilopsis,5,https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_128_plosis_1.png,https://gamepress.gg/arknights/sites/arknights/files/2019-11/char_128_plosis_2.png,1,#5fb3ce
+Quartz,4,https://gamepress.gg/arknights/sites/arknights/files/2022-10/Quartz.jpeg,,0,#2f2f2f
+Totter,4,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E9%93%85%E8%B8%9D_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-10/%E7%AB%8B%E7%BB%98_%E9%93%85%E8%B8%9D_2.png,1,#aab6b9
+Luo Xiaohei,4,https://gamepress.gg/arknights/sites/arknights/files/2022-09/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-09/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_2.png,1,#acaea8
 Chestnut,4,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4041_chnut_1.png,https://gamepress.gg/arknights/sites/arknights/files/2022-04/char_4041_chnut_2.png,1,#635e59
 Pudding,4,https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_4004_pudd_1.png,https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_4004_pudd_2.png,1,#b8cbd7
 Roberta,4,https://gamepress.gg/arknights/sites/arknights/files/2021-09/char_484_robrta_1.png,https://gamepress.gg/arknights/sites/arknights/files/2021-09/char_484_robrta_2.png,1,#5e616d
