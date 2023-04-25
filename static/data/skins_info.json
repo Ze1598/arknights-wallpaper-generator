@@ -1,4 +1,10 @@
 {
+  "Poz\u00ebmka": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E9%B8%BF%E9%9B%AA_skin1.png"
+  },
+  "Horn": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-04/%E7%AB%8B%E7%BB%98_%E5%8F%B7%E8%A7%92_skin1.png"
+  },
   "Goldenglow": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-12/%E7%AB%8B%E7%BB%98_%E6%BE%84%E9%97%AA_skin1.png"
   },
@@ -24,7 +30,8 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E6%B0%B4%E6%9C%88_skin1.png"
   },
   "Pallas": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_485_pallas_epoque%2312-2.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E5%B8%95%E6%8B%89%E6%96%AF_skin2.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_485_pallas_epoque%2312-2.png"
   },
   "Carnelian": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-07/%E7%AB%8B%E7%BB%98_%E5%8D%A1%E6%B6%85%E5%88%A9%E5%AE%89_skin2.png",
@@ -73,8 +80,9 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-06/char_293_thorns_it%231.png"
   },
   "Suzuran": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E9%93%83%E5%85%B0_skin2.png",
-    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_358_lisa_wild%233.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-03/%E7%AB%8B%E7%BB%98_%E9%93%83%E5%85%B0_skin3.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E9%93%83%E5%85%B0_skin2.png",
+    "Skin 3": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_358_lisa_wild%233.png"
   },
   "Rosa (Poca)": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-11/char_197_poca_epoque%2312.png"
@@ -123,7 +131,8 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtChenSkinNian.png"
   },
   "Skadi": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_263_skadi_summer%233.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-04/%E7%AB%8B%E7%BB%98_%E6%96%AF%E5%8D%A1%E8%92%82_skin2_0.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_263_skadi_summer%233.png"
   },
   "SilverAsh": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-08/char_172_svrash_summer%234.png",
@@ -158,8 +167,15 @@
     "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtSiegeSkinWild_1.png"
   },
   "Exusiai": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinKFC.png",
-    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinWild.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E8%83%BD%E5%A4%A9%E4%BD%BF_skin3.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinKFC.png",
+    "Skin 3": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtExuSkinWild.png"
+  },
+  "Harmonie": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-04/%E7%AB%8B%E7%BB%98_%E5%92%8C%E5%BC%A6_skin1.png"
+  },
+  "Proviso": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_skin1.png"
   },
   "Cantabile": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-01/char_497_ctable_nian%239.png"
@@ -173,8 +189,14 @@
   "Rockrock": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E6%B4%9B%E6%B4%9B_skin1.png"
   },
+  "Heidi": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-04/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E8%92%82_skin1.png"
+  },
   "Kazemaru": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E9%A3%8E%E4%B8%B8_skin1.png"
+  },
+  "Enforcer": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E8%A7%81%E8%A1%8C%E8%80%85_skin1.png"
   },
   "Quercus": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E5%A4%8F%E6%A0%8E_skin1.png"
@@ -250,6 +272,9 @@
   "April": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-09/char_365_aprl_wild%233.png"
   },
+  "Mint": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-03/%E7%AB%8B%E7%BB%98_%E8%96%84%E7%BB%BF_skin1.png"
+  },
   "Flint": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_415_flint_boc%233-2.png"
   },
@@ -261,6 +286,9 @@
   },
   "Beeswax": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-07/char_344_beewax_epoque%239.png"
+  },
+  "Scene": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-03/%E7%AB%8B%E7%BB%98_%E7%A8%80%E9%9F%B3_skin1.png"
   },
   "Ayerscarpe": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-05/char_294_ayer_boc%233-2.png"
@@ -316,8 +344,9 @@
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-05/char_279_excu_boc1.png"
   },
   "Astesia": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-09/char_274_astesi_shining%231.png",
-    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_274_astesi_epoque%235.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-03/%E7%AB%8B%E7%BB%98_%E6%98%9F%E6%9E%81_skin3.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2021-09/char_274_astesi_shining%231.png",
+    "Skin 3": "https://gamepress.gg/arknights/sites/arknights/files/2020-07/char_274_astesi_epoque%235.png"
   },
   "Glaucus": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/char_326_glacus_ghost%231.png"
@@ -336,7 +365,8 @@
     "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtFeaterSkinMarthe.png"
   },
   "Manticore": {
-    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/ArtManticoreSkinInvisibleDirge.png"
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E7%8B%AE%E8%9D%8E_skin2.png",
+    "Skin 2": "https://gamepress.gg/arknights/sites/arknights/files/2020-06/ArtManticoreSkinInvisibleDirge.png"
   },
   "Sora": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-11/%E7%AB%8B%E7%BB%98_%E7%A9%BA_skin2.png",
@@ -481,6 +511,9 @@
   "Shaw": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-10/ShawSkin.png"
   },
+  "Deepcolor": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E6%B7%B1%E6%B5%B7%E8%89%B2_skin1.png"
+  },
   "Gummy": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtGummySkinSummer.png"
   },
@@ -506,6 +539,9 @@
   },
   "Gravel": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2021-01/char_237_gravel_winter%232.png"
+  },
+  "Mousse": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-02/%E7%AB%8B%E7%BB%98_%E6%85%95%E6%96%AF_skin1.png"
   },
   "Frostleaf": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2022-05/%E7%AB%8B%E7%BB%98_%E9%9C%9C%E5%8F%B6_skin1.png"
@@ -570,6 +606,9 @@
   },
   "Fang": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-01/char_123_fang_winter%231.png"
+  },
+  "Terra Research Commission": {
+    "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2023-03/%E7%AB%8B%E7%BB%98_%E6%B3%B0%E6%8B%89%E5%A4%A7%E9%99%86%E8%B0%83%E6%9F%A5%E5%9B%A2_skin1.png"
   },
   "Castle-3": {
     "Skin 1": "https://gamepress.gg/arknights/sites/arknights/files/2020-02/ArtCastle3SkinSummer.png"
