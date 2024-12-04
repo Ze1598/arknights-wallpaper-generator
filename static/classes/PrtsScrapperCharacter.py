@@ -54,8 +54,8 @@ class PrtsScrapperCharacter:
 
             # Get the english-translated character name
             char_name = scraper.page.locator("#firstHeading")
-            self.operator_name_translated = char_name.text_content()
-            operator_details_dict["name_translated"] = self.operator_name_translated
+            self.name_translated = char_name.text_content()
+            operator_details_dict["name_translated"] = self.name_translated
 
             char_info = scraper.page.locator(".charinfo-container")
             # # Debug only
