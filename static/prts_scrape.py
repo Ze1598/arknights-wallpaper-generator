@@ -10,8 +10,10 @@ if __name__ == "__main__":
     scrapper = PrtsScrapper()
     num_operators = scrapper.num_operators_available
     operator_pages = scrapper.operators_url_dict
+    
+    with open('operators_list.json', 'w') as f:
+        json.dump(operator_pages, f, indent=4, ensure_ascii=False)
 
-    # TODO: add logic to compare num available operators vs operators in existing pickle file
 
     # Keep track of operator details in a dict
     operators_dict = dict()
@@ -26,7 +28,7 @@ if __name__ == "__main__":
         print(f"{counter} / {num_operators}: {name}, {datetime.now()}")
 
         try:
-            # if name == "Castle-3":
+            # if nameoperators_dict[translated_name] == "Castle-3":
             # if name == "Vina Victoria":
             # if name in ("Vina Victoria", "Degenbrecher", "SilverAsh", "Castle-3"):
             # if name in ("Degenbrecher", "SilverAsh"):
@@ -34,23 +36,32 @@ if __name__ == "__main__":
             # print(operator.skins)
             # print(operator.page_url)
             # print()
+            
+            # Use translated name to account for russian characters
+            translated_name = operator.name_translated
 
             # Entry for this operator
-            operators_dict[name] = operator.operator_details
+            operators_dict[translated_name] = operator.operator_details
 
         # Use the except to retry scrape
         except:
-            time.sleep(10)
+            time.sleep(60)
             # print(f"RETRY {counter} / {num_operators}: {name}, {datetime.now()}")
             # operator = PrtsScrapperCharacter(name, name_cn, url)
             fail_dict[name] = operator_pages[name]
+
+            # Then retry to scrape operator
+            operator = PrtsScrapperCharacter(name, name_cn, url)
+            translated_name = operator.name_translated
+            operators_dict[translated_name] = operator.operator_details
+            
 
         counter += 1
         time.sleep(randint(3, 10))
 
 
     with open('operators.json', 'w') as f:
-        json.dump(operators_dict, f, indent=4)
+        json.dump(operators_dict, f, indent=4, ensure_ascii=False)
 
     with open('fails.json', 'w') as f:
-        json.dump(fail_dict, f, indent=4)
+        json.dump(fail_dict, f, indent=4, ensure_ascii=False)
