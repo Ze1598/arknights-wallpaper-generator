@@ -83,7 +83,8 @@ foreground_art = e0_art
 background_art = e2_art if e2_art != "" else e0_art
 
 # Calculate available elite artwork and skins
-art_choices = [artwork for artwork in ("Elite 0", "Elite 1", "Elite 2") if chosen_op_dict[artwork] != ""]
+art_choices = ["None"]
+art_choices.extend([artwork for artwork in ("Elite 0", "Elite 1", "Elite 2") if chosen_op_dict[artwork] != ""])
 skin_names = list(chosen_op_dict["skins"].keys())
 art_choices.extend(skin_names)
 
@@ -91,9 +92,10 @@ art_choices.extend(skin_names)
 # fg_art_choices = art_choices[:-1]
 
 # Choose the fore and background art individually
+# Exclude the None option because foreground is mandatory
 foreground_art = st.selectbox(
     "Which art do you want in the front?",
-    art_choices
+    art_choices[1:]
 )
 background_art = st.selectbox(
     "Which art do you want in the back?",
