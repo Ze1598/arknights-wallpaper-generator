@@ -417,7 +417,7 @@
                 "sha256:fa2d1337dc61c8dc417fbccf20f6d1e139896a30721b7f1e832b2bb6ef4eb6c4"
             ],
             "markers": "python_version < '3.11'",
-            "version": "==2.1.2"
+            "version": "==2.0.2"
         },
         "pandas": {
             "hashes": [
