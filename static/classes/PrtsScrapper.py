@@ -22,7 +22,7 @@ class PrtsScrapper:
         # Map operator names to their page url
         self.operators_url_dict = self.get_operator_pages()
         # Generate local pickle whenever the class is instantiated
-        self.write_pickle()
+        # self.write_pickle()
 
     def get_operators_base_html(self):
         """
@@ -54,6 +54,21 @@ class PrtsScrapper:
                 "url": f"{self.prts_base_url}{op_name_cn}",
                 "name_cn": operator_html["data-zh"]
             }
+
+        # Manually add entries for Amiya alters because only is included in the source
+        # The single entry retrived is under Amiya so these will correct that information
+        operators_dict["Amiya"] = {
+                    "url": "https://prts.wiki/w/阿米娅",
+                    "name_cn": "阿米娅"
+        }
+        operators_dict["Amiya (Guard)"] = {
+                    "url": "https://prts.wiki/w/阿米娅(近卫)",
+                    "name_cn": "阿米娅(近卫)"
+        }
+        operators_dict["Amiya (Medic)"] = {
+                    "url": "https://prts.wiki/w/阿米娅(医疗)",
+                    "name_cn": "阿米娅(医疗)"
+        }
 
         return operators_dict
     
