@@ -1,12 +1,10 @@
 from PIL import Image
 import streamlit as st
-from streamlit import caching
 import pandas as pd
 import json
 import os
 import wallpaper_gen
 import utils
-st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.markdown("""
 # Arknights Phone Wallpaper Generator
@@ -19,7 +17,6 @@ For feedback, feel free to reach out to me on Twitter [@ze1598](https://twitter.
 """)
 
 
-@st.cache
 def load_main_csv():
     """Load the main CSV of operator names, promotion images' URLs and theme colors.
     This function exists so the data can be cached.
@@ -29,7 +26,6 @@ def load_main_csv():
     return data
 
 
-@st.cache
 def load_skins_json():
     """Load the JSON with URLs to the skins' art.
     This function exists so the data can be cached.
@@ -40,12 +36,10 @@ def load_skins_json():
     return data
 
 
-# Reset all app caches
-# caching.clear_cache()
-# Load the necessary data and sort it by alphabetical order of names
-main_data = load_main_csv()
-main_data.sort_values(by="name", inplace=True)
-skins_data = load_skins_json()
+# Load dataset
+json_path = os.path.join(os.getcwd(), "static", "data", "dataset.json")
+dataset = pd.read_json(json_path)
+dataset.sort_values(by="name_translated", inplace=True)
 
 # Dropdown to filter by operator rank
 operator_rank = st.selectbox(
@@ -60,46 +54,46 @@ for star in range(1, 7):
     # Since the dropdown is single-choice only, this will only match a single\
     # rank at any point in time
     if operator_rank == option:
-        filtered_data = main_data[main_data["num_stars"] == int(star)]
+        filtered_data = dataset[dataset["rarity"] == int(star)]
 
 operator_rank_int = int(operator_rank[0])
-filtered_data = main_data.query(f"num_stars == {operator_rank_int}")
+filtered_data = dataset.query(f"rarity == {operator_rank_int}")
 
 # Dropdown to choose the operator
 operator_chosen = st.selectbox(
     "Choose your operator",
-    filtered_data["name"].to_numpy()
+    filtered_data["name_translated"].to_numpy()
 )
 
-# Get data for the chosen operator
-chosen_op_data = main_data[main_data["name"] == operator_chosen]
-operator_name = chosen_op_data["name"].iloc[0]
-operator_rank = chosen_op_data["num_stars"].iloc[0]
+# Get data for the chosen operator (as a dictionary)
+chosen_op_data = dataset[dataset["name_translated"] == operator_chosen]
+chosen_op_dict = chosen_op_data.to_dict("records")[0]
+
+operator_name = chosen_op_dict["name_translated"]
+operator_rank = chosen_op_dict["rarity"]
 is_low_rank = operator_rank in (1, 2, 3)
-e0_art = chosen_op_data["e0_img"].iloc[0]
-e2_art = chosen_op_data["e2_img"].iloc[0]\
-    if str(chosen_op_data["e2_img"].iloc[0]) != "nan" else ""
-op_default_color = chosen_op_data["color"].iloc[0]
+e0_art = chosen_op_dict["Elite 0"]
+e1_art = chosen_op_dict["Elite 1"]
+e2_art = chosen_op_dict["Elite 2"]
+# op_default_color = chosen_op_data["color"].iloc[0]
+op_default_color = "#63B3B0"
 
-# By default, the foreground art is the base/E1 art
+# Default artwork for fore and background
 foreground_art = e0_art
-# By default, the background art is the E2 art
-background_art = e2_art
+background_art = e2_art if e2_art != "" else e0_art
 
-# Get lists of skin names and their respective art URLs
-skins_available = skins_data.get(operator_name, None)
-skin_names = tuple(skins_available.keys())\
-    if skins_available != None else tuple()
+# Calculate available elite artwork and skins
+art_choices = [artwork for artwork in ("Elite 0", "Elite 1", "Elite 2") if chosen_op_dict[artwork] != ""]
+skin_names = list(chosen_op_dict["skins"].keys())
+art_choices.extend(skin_names)
 
-# List of available art to choose from (promotion and skins)
-art_choices = utils.create_avail_art_options(skin_names, operator_name, e2_art)
 # Foreground art must always be selected
-fg_art_choices = art_choices[:-1]
+# fg_art_choices = art_choices[:-1]
 
 # Choose the fore and background art individually
 foreground_art = st.selectbox(
     "Which art do you want in the front?",
-    fg_art_choices
+    art_choices
 )
 background_art = st.selectbox(
     "Which art do you want in the back?",
@@ -120,13 +114,14 @@ if custom_bg_img != None:
 # Change the operator theme color
 # Using the beta version until the generally available version is fixed in Streamlit 
 #custom_op_color = st.color_picker("Feel free to change the operator theme color", op_default_color)
-custom_op_color = st.beta_color_picker("Feel free to change the operator theme color", op_default_color)
+custom_op_color = st.color_picker("Feel free to change the operator theme color", op_default_color)
 
 # Put together relevant operator information in a single dictionary
 operator_info = {
-    "E0 art": e0_art,
-    "E2 art": e2_art,
-    "skins": skins_available,
+    "Elite 0": e0_art,
+    "Elite 1": e1_art,
+    "Elite 2": e2_art,
+    "skins": chosen_op_dict["skins"],
     "bg_chosen": background_art,
     "fg_chosen": foreground_art
 }
@@ -140,7 +135,7 @@ wallpaper_name = operator_name + ".png"
 wallpaper_bg_path = custom_bg_path if custom_bg_img != None else ""
 
 # Generate the wallpaper
-wallpaper_gen.main(
+wallpaper_gen.generate(
     wallpaper_name,
     fg_art_url,
     bg_art_url,
