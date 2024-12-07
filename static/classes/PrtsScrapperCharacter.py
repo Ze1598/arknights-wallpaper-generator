@@ -55,7 +55,12 @@ class PrtsScrapperCharacter:
             # Get the english-translated character name
             char_name = scraper.page.locator("#firstHeading")
             self.name_translated = char_name.text_content()
-            operator_details_dict["name_translated"] = self.name_translated
+            # Can be issues where name gets displayed back in chinese, so keep the original name if its in english
+            # i.e. the name uses ascii compatible characters (avoid russian and chinese at least)
+            if self.name_translated.isascii():
+                operator_details_dict["name_translated"] = self.name_translated
+            else:
+                operator_details_dict["name_translated"] = self.name
 
             char_info = scraper.page.locator(".charinfo-container")
             # # Debug only
@@ -70,17 +75,23 @@ class PrtsScrapperCharacter:
             rarity_value = re.search(rarity_pattern, rarity_url).group(1)
             operator_details_dict["rarity"] = rarity_value
 
-            # Calculate elite 1 and 2 artwork url
+            # Calculate elite 0 and 2 artwork url
             elite_info = char_info.locator(".stage-btn-wrapper").evaluate("div => div.childNodes")
             elite_stages = len(elite_info)
             elite1_filename = f"立绘_{self.name_cn}_1.png"
-            elite1_url = f"https://media.prts.wiki/{self.get_path(elite1_filename)}"
+            elite0_url = f"https://media.prts.wiki/{self.get_path(elite1_filename)}"
             if elite_stages > 1:
                 elite2_filename = f"立绘_{self.name_cn}_2.png"
                 elite2_url = f"https://media.prts.wiki/{self.get_path(elite2_filename)}"
             else:
                 elite2_url = ""
-            operator_details_dict["Elite 1"] = elite1_url
+            # Only affects base Amiya for now
+            if self.name_cn == "阿米娅":
+                operator_details_dict["Elite 1"] = "https://media.prts.wiki/3/34/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1%2B.png"
+            else:
+                operator_details_dict["Elite 1"] = ""
+
+            operator_details_dict["Elite 0"] = elite0_url
             operator_details_dict["Elite 2"] = elite2_url
 
             # Calculate skins url
@@ -94,6 +105,7 @@ class PrtsScrapperCharacter:
             operator_details_dict["skins"] = skins_dict
             
         # Add up remaining operator details as class attributs
+        self.elite0 = operator_details_dict["Elite 0"]
         self.elite1 = operator_details_dict["Elite 1"]
         self.elite2 = operator_details_dict["Elite 2"]
         self.rarity = operator_details_dict["rarity"]
