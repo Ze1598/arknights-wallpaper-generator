@@ -40,20 +40,19 @@ def generate(
         bg_art, bg_art_coords = utils.prepare_loaded_bg_art(res, DIMENSIONS, ART_ALPHA)
 
     # Load foreground art if there is one
-    if ignore_fg_image != True:
-        # Load foreground art
-        res = requests.get(foreground_art)
-        # If we are using only foreground art, then center it
-        if using_single_art == True:
-            fg_art, fg_art_coords = utils.prepare_loaded_art(res, DIMENSIONS, "single")
-        # Otherwise use the bottom alignment
-        else:
-            fg_art, fg_art_coords = utils.prepare_loaded_art(res, DIMENSIONS, "normal")
+    # Load foreground art
+    res = requests.get(foreground_art)
+    # If we are using only foreground art, then center it
+    if using_single_art == True:
+        fg_art, fg_art_coords = utils.prepare_loaded_art(res, DIMENSIONS, "single")
+    # Otherwise use the bottom alignment
+    else:
+        fg_art, fg_art_coords = utils.prepare_loaded_art(res, DIMENSIONS, "normal")
 
-        # Create the foreground art shadow
-        shadow = Image.new("RGBA", fg_art.size, color=operator_color)
-        # Calculate the drawing coordinates for the foreground art shadow
-        shadow_coords = [coord+SHADOW_OFFSET for coord in fg_art_coords]
+    # Create the foreground art shadow
+    shadow = Image.new("RGBA", fg_art.size, color=operator_color)
+    # Calculate the drawing coordinates for the foreground art shadow
+    shadow_coords = [coord+SHADOW_OFFSET for coord in fg_art_coords]
 
     # Add the background
     wip_img.paste(bg)
@@ -65,12 +64,13 @@ def generate(
             # Add the background art shadow
             wip_img.paste(shadow, shadow_coords, mask=bg_art)
         wip_img.paste(bg_art, bg_art_coords, mask=bg_art)
-    # Add the foreground art if there is one
-    if ignore_fg_image != True:
-        # Add the foreground art shadow
-        wip_img.paste(shadow, shadow_coords, mask=fg_art)
-        # Add the foreground art
-        wip_img.paste(fg_art, fg_art_coords, mask=fg_art)
+
+    # Add the foreground art 
+    # Add the foreground art shadow
+    wip_img.paste(shadow, shadow_coords, mask=fg_art)
+    # Add the foreground art
+    wip_img.paste(fg_art, fg_art_coords, mask=fg_art)
+    
     # Save the resulting wallpaper
     wip_img.save(img_name)
 
