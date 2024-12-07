@@ -9,7 +9,7 @@ ART_ALPHA = 0.8
 SHADOW_OFFSET = 15
 
 
-def main(
+def generate(
     img_name: str, 
     foreground_art: str, 
     background_art: str,
@@ -76,7 +76,7 @@ def main(
 
 
 if __name__ == "__main__":
-    main(
+    generate(
         "Ch'en.png",
         "https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_010_chen_1_0.png",
         "https://gamepress.gg/arknights/sites/arknights/files/2019-10/char_010_chen_1_2.png",
