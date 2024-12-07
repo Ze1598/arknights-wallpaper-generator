@@ -11,6 +11,7 @@ colorthief = "*"
 lxml = "*"
 requests-html = "*"
 lxml-html-clean = "*"
+numpy = "==2.0.2"
 
 [dev-packages]
 
