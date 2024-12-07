@@ -9,7 +9,7 @@ import streamlit as st
 def get_art_url(selected_art: str, operator_info: Dict) -> str:
     """Get the URL for the selected operator art (fore or background).
     """
-    if selected_art in ("E0 art", "E2 art"):
+    if "Elite" in selected_art:
         art_url = operator_info[selected_art]
     elif selected_art == "None":
         art_url = ""
