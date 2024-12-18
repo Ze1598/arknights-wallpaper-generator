@@ -145,7 +145,7 @@ wallpaper_gen.generate(
     custom_op_color
 )
 # Display the wallpaper
-st.image(wallpaper_name, use_column_width=True)
+st.image(wallpaper_name, use_container_width=True)
 
 # Encode the image to bytes so a download link can be created
 encoded_img = utils.encode_img_to_b64(wallpaper_name)
