@@ -22,13 +22,16 @@ Some notes about the docker image: how to build and run
 
 ## Build the image
 -t is the name of the image (the tag)
+
 . is the path to the image, in this case i ran it at the project root
 
 `docker build -t arknights_wallpaper_generator .`
 
 ## Run the image
 -p port forwarding as exposed_port:image_internal_port
+
 in the example, you will access the streamlit app at port 8502, but the image is using port 8501 internally
+
 also pass it the name of the image to run
 
 `docker run -p 8502:8501 arknights_wallpaper_generator`
