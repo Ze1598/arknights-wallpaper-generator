@@ -7,6 +7,10 @@
         "url": "https://prts.wiki/w/Castle-3",
         "name_cn": "Castle-3"
     },
+    "CONFESS-47": {
+        "url": "https://prts.wiki/w/CONFESS-47",
+        "name_cn": "CONFESS-47"
+    },
     "Friston-3": {
         "url": "https://prts.wiki/w/Friston-3",
         "name_cn": "Friston-3"
@@ -14,6 +18,14 @@
     "Lancet-2": {
         "url": "https://prts.wiki/w/Lancet-2",
         "name_cn": "Lancet-2"
+    },
+    "Miss.Christine": {
+        "url": "https://prts.wiki/w/Miss.Christine",
+        "name_cn": "Miss.Christine"
+    },
+    "Mon3tr": {
+        "url": "https://prts.wiki/w/Mon3tr",
+        "name_cn": "Mon3tr"
     },
     "PhonoR-0": {
         "url": "https://prts.wiki/w/PhonoR-0",
@@ -91,9 +103,17 @@
         "url": "https://prts.wiki/w/但书",
         "name_cn": "但书"
     },
+    "Yu": {
+        "url": "https://prts.wiki/w/余",
+        "name_cn": "余"
+    },
     "Pepe": {
         "url": "https://prts.wiki/w/佩佩",
         "name_cn": "佩佩"
+    },
+    "Sankta Miksaparato": {
+        "url": "https://prts.wiki/w/信仰搅拌机",
+        "name_cn": "信仰搅拌机"
     },
     "Ch'en the Holungday": {
         "url": "https://prts.wiki/w/假日威龙陈",
@@ -194,6 +214,14 @@
     "Horn": {
         "url": "https://prts.wiki/w/号角",
         "name_cn": "号角"
+    },
+    "Leizi the Thunderbringer": {
+        "url": "https://prts.wiki/w/司霆惊蛰",
+        "name_cn": "司霆惊蛰"
+    },
+    "Kichisei": {
+        "url": "https://prts.wiki/w/吉星",
+        "name_cn": "吉星"
     },
     "Hung": {
         "url": "https://prts.wiki/w/吽",
@@ -343,6 +371,10 @@
         "url": "https://prts.wiki/w/寒芒克洛丝",
         "name_cn": "寒芒克洛丝"
     },
+    "Surfer": {
+        "url": "https://prts.wiki/w/寻澜",
+        "name_cn": "寻澜"
+    },
     "Fuze": {
         "url": "https://prts.wiki/w/导火索",
         "name_cn": "导火索"
@@ -410,6 +442,10 @@
     "Specter the Unchained": {
         "url": "https://prts.wiki/w/归溟幽灵鲨",
         "name_cn": "归溟幽灵鲨"
+    },
+    "Record Keeper": {
+        "url": "https://prts.wiki/w/录武官",
+        "name_cn": "录武官"
     },
     "Breeze": {
         "url": "https://prts.wiki/w/微风",
@@ -487,6 +523,10 @@
         "url": "https://prts.wiki/w/斥罪",
         "name_cn": "斥罪"
     },
+    "Hoshiguma the Breacher": {
+        "url": "https://prts.wiki/w/斩业星熊",
+        "name_cn": "斩业星熊"
+    },
     "Ayerscarpe": {
         "url": "https://prts.wiki/w/断崖",
         "name_cn": "断崖"
@@ -498,6 +538,10 @@
     "Skadi": {
         "url": "https://prts.wiki/w/斯卡蒂",
         "name_cn": "斯卡蒂"
+    },
+    "Exusiai the New Covenant": {
+        "url": "https://prts.wiki/w/新约能天使",
+        "name_cn": "新约能天使"
     },
     "Роса": {
         "url": "https://prts.wiki/w/早露",
@@ -579,6 +623,10 @@
         "url": "https://prts.wiki/w/松果",
         "name_cn": "松果"
     },
+    "Matsukiri": {
+        "url": "https://prts.wiki/w/松桐",
+        "name_cn": "松桐"
+    },
     "Aurora": {
         "url": "https://prts.wiki/w/极光",
         "name_cn": "极光"
@@ -655,9 +703,17 @@
         "url": "https://prts.wiki/w/正义骑士号",
         "name_cn": "正义骑士号"
     },
+    "Necrass": {
+        "url": "https://prts.wiki/w/死芒",
+        "name_cn": "死芒"
+    },
     "Mizuki": {
         "url": "https://prts.wiki/w/水月",
         "name_cn": "水月"
+    },
+    "Brigid": {
+        "url": "https://prts.wiki/w/水灯心",
+        "name_cn": "水灯心"
     },
     "Popukar": {
         "url": "https://prts.wiki/w/泡普卡",
@@ -811,6 +867,10 @@
         "url": "https://prts.wiki/w/烈夏",
         "name_cn": "烈夏"
     },
+    "Blaze the Igniting Spark": {
+        "url": "https://prts.wiki/w/烛煌",
+        "name_cn": "烛煌"
+    },
     "Flametail": {
         "url": "https://prts.wiki/w/焰尾",
         "name_cn": "焰尾"
@@ -882,6 +942,10 @@
     "Rose Salt": {
         "url": "https://prts.wiki/w/瑰盐",
         "name_cn": "瑰盐"
+    },
+    "Raidian": {
+        "url": "https://prts.wiki/w/电弧",
+        "name_cn": "电弧"
     },
     "Platinum": {
         "url": "https://prts.wiki/w/白金",
@@ -1027,6 +1091,10 @@
         "url": "https://prts.wiki/w/耶拉",
         "name_cn": "耶拉"
     },
+    "Gracebearer": {
+        "url": "https://prts.wiki/w/聆音",
+        "name_cn": "聆音"
+    },
     "Exusiai": {
         "url": "https://prts.wiki/w/能天使",
         "name_cn": "能天使"
@@ -1115,9 +1183,17 @@
         "url": "https://prts.wiki/w/菲莱",
         "name_cn": "菲莱"
     },
+    "Tippi": {
+        "url": "https://prts.wiki/w/蒂比",
+        "name_cn": "蒂比"
+    },
     "Blue Poison": {
         "url": "https://prts.wiki/w/蓝毒",
         "name_cn": "蓝毒"
+    },
+    "Lemuen": {
+        "url": "https://prts.wiki/w/蕾缪安",
+        "name_cn": "蕾缪安"
     },
     "Mint": {
         "url": "https://prts.wiki/w/薄绿",
@@ -1142,6 +1218,10 @@
     "Beeswax": {
         "url": "https://prts.wiki/w/蜜蜡",
         "name_cn": "蜜蜡"
+    },
+    "Xingzhu": {
+        "url": "https://prts.wiki/w/行箸",
+        "name_cn": "行箸"
     },
     "Sand Reckoner": {
         "url": "https://prts.wiki/w/衡沙",
@@ -1170,6 +1250,10 @@
     "Swire": {
         "url": "https://prts.wiki/w/诗怀雅",
         "name_cn": "诗怀雅"
+    },
+    "Nowell": {
+        "url": "https://prts.wiki/w/诺威尔",
+        "name_cn": "诺威尔"
     },
     "Perfumer": {
         "url": "https://prts.wiki/w/调香师",
@@ -1239,6 +1323,14 @@
         "url": "https://prts.wiki/w/逻各斯",
         "name_cn": "逻各斯"
     },
+    "Haruka": {
+        "url": "https://prts.wiki/w/遥",
+        "name_cn": "遥"
+    },
+    "Tragodia": {
+        "url": "https://prts.wiki/w/酒神",
+        "name_cn": "酒神"
+    },
     "Aciddrop": {
         "url": "https://prts.wiki/w/酸糖",
         "name_cn": "酸糖"
@@ -1250,6 +1342,10 @@
     "Wild Mane": {
         "url": "https://prts.wiki/w/野鬃",
         "name_cn": "野鬃"
+    },
+    "Wulfenite": {
+        "url": "https://prts.wiki/w/钼铅",
+        "name_cn": "钼铅"
     },
     "Suzuran": {
         "url": "https://prts.wiki/w/铃兰",
@@ -1295,6 +1391,10 @@
         "url": "https://prts.wiki/w/阿",
         "name_cn": "阿"
     },
+    "Alanna": {
+        "url": "https://prts.wiki/w/阿兰娜",
+        "name_cn": "阿兰娜"
+    },
     "Ascalon": {
         "url": "https://prts.wiki/w/阿斯卡纶",
         "name_cn": "阿斯卡纶"
@@ -1318,6 +1418,10 @@
     "Meteorite": {
         "url": "https://prts.wiki/w/陨星",
         "name_cn": "陨星"
+    },
+    "Entelechia": {
+        "url": "https://prts.wiki/w/隐德来希",
+        "name_cn": "隐德来希"
     },
     "Insider": {
         "url": "https://prts.wiki/w/隐现",
@@ -1374,6 +1478,10 @@
     "Vanilla": {
         "url": "https://prts.wiki/w/香草",
         "name_cn": "香草"
+    },
+    "Windscoot": {
+        "url": "https://prts.wiki/w/骋风",
+        "name_cn": "骋风"
     },
     "Civilight Eterna": {
         "url": "https://prts.wiki/w/魔王",
