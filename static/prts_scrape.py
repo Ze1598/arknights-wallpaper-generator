@@ -9,7 +9,8 @@ import os
 
 if __name__ == "__main__":
     # Base path to write to
-    out_path = os.path.join(os.getcwd(), "static", "data")
+    # out_path = os.path.join(os.getcwd(), "static", "data")
+    out_path = os.path.join(os.getcwd(), "data")
 
     # Initialize class to scrape list of existing operators
     scrapper = PrtsScrapper()
