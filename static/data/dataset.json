@@ -134,6 +134,30 @@
         }
     },
     {
+        "original_name": "Misumi Uika",
+        "url": "https://prts.wiki/w/三角初华",
+        "name_translated": "Misumi Uika",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/a/af/%E7%AB%8B%E7%BB%98_%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E_1.png",
+        "Elite 2": "https://media.prts.wiki/1/1d/%E7%AB%8B%E7%BB%98_%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/5/5a/%E7%AB%8B%E7%BB%98_%E4%B8%89%E8%A7%92%E5%88%9D%E5%8D%8E_skin1.png"
+        }
+    },
+    {
+        "original_name": "Togawa Sakiko",
+        "url": "https://prts.wiki/w/丰川祥子",
+        "name_translated": "Togawa Sakiko",
+        "rarity": "6",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/a/aa/%E7%AB%8B%E7%BB%98_%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90_1.png",
+        "Elite 2": "https://media.prts.wiki/e/e1/%E7%AB%8B%E7%BB%98_%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/f/f4/%E7%AB%8B%E7%BB%98_%E4%B8%B0%E5%B7%9D%E7%A5%A5%E5%AD%90_skin1.png"
+        }
+    },
+    {
         "original_name": "Nearl",
         "url": "https://prts.wiki/w/临光",
         "name_translated": "Nearl",
@@ -374,6 +398,28 @@
         }
     },
     {
+        "original_name": "Yahata Umiri",
+        "url": "https://prts.wiki/w/八幡海铃",
+        "name_translated": "Yahata Umiri",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/6/64/%E7%AB%8B%E7%BB%98_%E5%85%AB%E5%B9%A1%E6%B5%B7%E9%93%83_1.png",
+        "Elite 2": "https://media.prts.wiki/0/09/%E7%AB%8B%E7%BB%98_%E5%85%AB%E5%B9%A1%E6%B5%B7%E9%93%83_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/b/ba/%E7%AB%8B%E7%BB%98_%E5%85%AB%E5%B9%A1%E6%B5%B7%E9%93%83_skin1.png"
+        }
+    },
+    {
+        "original_name": "Снегyрочка",
+        "url": "https://prts.wiki/w/冬时",
+        "name_translated": "Снегyрочка",
+        "rarity": "4",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/5/56/%E7%AB%8B%E7%BB%98_%E5%86%AC%E6%97%B6_1.png",
+        "Elite 2": "https://media.prts.wiki/3/3c/%E7%AB%8B%E7%BB%98_%E5%86%AC%E6%97%B6_2.png",
+        "skins": {}
+    },
+    {
         "original_name": "Coldshot",
         "url": "https://prts.wiki/w/冰酿",
         "name_translated": "Coldshot",
@@ -399,6 +445,16 @@
         }
     },
     {
+        "original_name": "SilverAsh the Reignfrost",
+        "url": "https://prts.wiki/w/凛御银灰",
+        "name_translated": "SilverAsh the Reignfrost",
+        "rarity": "6",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/b/bb/%E7%AB%8B%E7%BB%98_%E5%87%9B%E5%BE%A1%E9%93%B6%E7%81%B0_1.png",
+        "Elite 2": "https://media.prts.wiki/b/b2/%E7%AB%8B%E7%BB%98_%E5%87%9B%E5%BE%A1%E9%93%B6%E7%81%B0_2.png",
+        "skins": {}
+    },
+    {
         "original_name": "Valarqvin",
         "url": "https://prts.wiki/w/凛视",
         "name_translated": "Valarqvin",
@@ -419,7 +475,8 @@
         "Elite 0": "https://media.prts.wiki/7/72/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_1.png",
         "Elite 2": "https://media.prts.wiki/6/65/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/0/0f/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_skin1.png"
+            "Skin 1": "https://media.prts.wiki/0/0f/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_skin1.png",
+            "Skin 2": "https://media.prts.wiki/9/98/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_skin2.png"
         }
     },
     {
@@ -503,6 +560,16 @@
             "Skin 1": "https://media.prts.wiki/2/24/%E7%AB%8B%E7%BB%98_%E5%8D%8E%E6%B3%95%E7%90%B3_skin1.png",
             "Skin 2": "https://media.prts.wiki/7/7e/%E7%AB%8B%E7%BB%98_%E5%8D%8E%E6%B3%95%E7%90%B3_skin2.png"
         }
+    },
+    {
+        "original_name": "Akkord",
+        "url": "https://prts.wiki/w/协律",
+        "name_translated": "Akkord",
+        "rarity": "4",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/8/8e/%E7%AB%8B%E7%BB%98_%E5%8D%8F%E5%BE%8B_1.png",
+        "Elite 2": "https://media.prts.wiki/c/ce/%E7%AB%8B%E7%BB%98_%E5%8D%8F%E5%BE%8B_2.png",
+        "skins": {}
     },
     {
         "original_name": "Kafka",
@@ -696,6 +763,16 @@
         }
     },
     {
+        "original_name": "Hadiya",
+        "url": "https://prts.wiki/w/哈蒂娅",
+        "name_translated": "Hadiya",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/1/1e/%E7%AB%8B%E7%BB%98_%E5%93%88%E8%92%82%E5%A8%85_1.png",
+        "Elite 2": "https://media.prts.wiki/8/89/%E7%AB%8B%E7%BB%98_%E5%93%88%E8%92%82%E5%A8%85_2.png",
+        "skins": {}
+    },
+    {
         "original_name": "Gavial",
         "url": "https://prts.wiki/w/嘉维尔",
         "name_translated": "Gavial",
@@ -752,8 +829,19 @@
         "Elite 0": "https://media.prts.wiki/7/71/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_1.png",
         "Elite 2": "https://media.prts.wiki/9/94/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/e/ee/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_skin1.png"
+            "Skin 1": "https://media.prts.wiki/e/ee/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_skin1.png",
+            "Skin 2": "https://media.prts.wiki/8/81/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_skin2.png"
         }
+    },
+    {
+        "original_name": "Pramanix the Prerita",
+        "url": "https://prts.wiki/w/圣聆初雪",
+        "name_translated": "Pramanix the Prerita",
+        "rarity": "6",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/2/20/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E8%81%86%E5%88%9D%E9%9B%AA_1.png",
+        "Elite 2": "https://media.prts.wiki/5/59/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E8%81%86%E5%88%9D%E9%9B%AA_2.png",
+        "skins": {}
     },
     {
         "original_name": "Earthspirit",
@@ -884,7 +972,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/a/a0/%E7%AB%8B%E7%BB%98_%E5%A4%9C%E7%83%9F_1.png",
         "Elite 2": "https://media.prts.wiki/0/08/%E7%AB%8B%E7%BB%98_%E5%A4%9C%E7%83%9F_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/7/7c/%E7%AB%8B%E7%BB%98_%E5%A4%9C%E7%83%9F_skin1.png"
+        }
     },
     {
         "original_name": "Nightingale",
@@ -968,7 +1058,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/9/95/%E7%AB%8B%E7%BB%98_%E5%A8%9C%E4%BB%81%E5%9B%BE%E4%BA%9A_1.png",
         "Elite 2": "https://media.prts.wiki/9/97/%E7%AB%8B%E7%BB%98_%E5%A8%9C%E4%BB%81%E5%9B%BE%E4%BA%9A_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/4/44/%E7%AB%8B%E7%BB%98_%E5%A8%9C%E4%BB%81%E5%9B%BE%E4%BA%9A_skin1.png"
+        }
     },
     {
         "original_name": "Lunacub",
@@ -1208,7 +1300,8 @@
         "Elite 0": "https://media.prts.wiki/e/e3/%E7%AB%8B%E7%BB%98_%E5%B7%AB%E6%81%8B_1.png",
         "Elite 2": "https://media.prts.wiki/6/65/%E7%AB%8B%E7%BB%98_%E5%B7%AB%E6%81%8B_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/1/19/%E7%AB%8B%E7%BB%98_%E5%B7%AB%E6%81%8B_skin1.png"
+            "Skin 1": "https://media.prts.wiki/1/19/%E7%AB%8B%E7%BB%98_%E5%B7%AB%E6%81%8B_skin1.png",
+            "Skin 2": "https://media.prts.wiki/1/16/%E7%AB%8B%E7%BB%98_%E5%B7%AB%E6%81%8B_skin2.png"
         }
     },
     {
@@ -1353,16 +1446,14 @@
         }
     },
     {
-        "original_name": "Leizi",
-        "url": "https://prts.wiki/w/惊蛰",
-        "name_translated": "Leizi",
-        "rarity": "5",
+        "original_name": "Vulpisfoglia",
+        "url": "https://prts.wiki/w/忍冬",
+        "name_translated": "Vulpisfoglia",
+        "rarity": "6",
         "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/9/9f/%E7%AB%8B%E7%BB%98_%E6%83%8A%E8%9B%B0_1.png",
-        "Elite 2": "https://media.prts.wiki/c/cf/%E7%AB%8B%E7%BB%98_%E6%83%8A%E8%9B%B0_2.png",
-        "skins": {
-            "Skin 1": "https://media.prts.wiki/b/b4/%E7%AB%8B%E7%BB%98_%E6%83%8A%E8%9B%B0_skin1.png"
-        }
+        "Elite 0": "https://media.prts.wiki/c/ca/%E7%AB%8B%E7%BB%98_%E5%BF%8D%E5%86%AC_1.png",
+        "Elite 2": "https://media.prts.wiki/0/02/%E7%AB%8B%E7%BB%98_%E5%BF%8D%E5%86%AC_2.png",
+        "skins": {}
     },
     {
         "original_name": "Sesa",
@@ -1431,7 +1522,8 @@
         "Elite 0": "https://media.prts.wiki/b/b7/%E7%AB%8B%E7%BB%98_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_1.png",
         "Elite 2": "https://media.prts.wiki/0/09/%E7%AB%8B%E7%BB%98_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/a/a0/%E7%AB%8B%E7%BB%98_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_skin1.png"
+            "Skin 1": "https://media.prts.wiki/a/a0/%E7%AB%8B%E7%BB%98_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_skin1.png",
+            "Skin 2": "https://media.prts.wiki/e/ed/%E7%AB%8B%E7%BB%98_%E6%89%BF%E6%9B%A6%E6%A0%BC%E9%9B%B7%E4%BC%8A_skin2.png"
         }
     },
     {
@@ -1447,16 +1539,14 @@
         }
     },
     {
-        "original_name": "Lappland",
-        "url": "https://prts.wiki/w/拉普兰德",
-        "name_translated": "Lappland",
+        "original_name": "Веточки",
+        "url": "https://prts.wiki/w/折桠",
+        "name_translated": "Веточки",
         "rarity": "5",
         "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/7/75/%E7%AB%8B%E7%BB%98_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_1.png",
-        "Elite 2": "https://media.prts.wiki/f/fe/%E7%AB%8B%E7%BB%98_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_2.png",
-        "skins": {
-            "Skin 1": "https://media.prts.wiki/1/11/%E7%AB%8B%E7%BB%98_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_skin1.png"
-        }
+        "Elite 0": "https://media.prts.wiki/7/75/%E7%AB%8B%E7%BB%98_%E6%8A%98%E6%A1%A0_1.png",
+        "Elite 2": "https://media.prts.wiki/d/db/%E7%AB%8B%E7%BB%98_%E6%8A%98%E6%A1%A0_2.png",
+        "skins": {}
     },
     {
         "original_name": "Bison",
@@ -1552,6 +1642,18 @@
         "Elite 0": "https://media.prts.wiki/c/c4/%E7%AB%8B%E7%BB%98_%E6%96%A9%E4%B8%9A%E6%98%9F%E7%86%8A_1.png",
         "Elite 2": "https://media.prts.wiki/6/6b/%E7%AB%8B%E7%BB%98_%E6%96%A9%E4%B8%9A%E6%98%9F%E7%86%8A_2.png",
         "skins": {}
+    },
+    {
+        "original_name": "Ayerscarpe",
+        "url": "https://prts.wiki/w/断崖",
+        "name_translated": "Ayerscarpe",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/1/1b/%E7%AB%8B%E7%BB%98_%E6%96%AD%E5%B4%96_1.png",
+        "Elite 2": "https://media.prts.wiki/a/a6/%E7%AB%8B%E7%BB%98_%E6%96%AD%E5%B4%96_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/e/ed/%E7%AB%8B%E7%BB%98_%E6%96%AD%E5%B4%96_skin1.png"
+        }
     },
     {
         "original_name": "Conviction",
@@ -2145,7 +2247,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/8/8b/%E7%AB%8B%E7%BB%98_%E6%B3%A2%E5%8D%9C_1.png",
         "Elite 2": "https://media.prts.wiki/a/a4/%E7%AB%8B%E7%BB%98_%E6%B3%A2%E5%8D%9C_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/7/7d/%E7%AB%8B%E7%BB%98_%E6%B3%A2%E5%8D%9C_skin1.png"
+        }
     },
     {
         "original_name": "Podenco",
@@ -2218,7 +2322,8 @@
         "Elite 0": "https://media.prts.wiki/9/96/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_1.png",
         "Elite 2": "https://media.prts.wiki/a/ae/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/1/1e/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_skin1.png"
+            "Skin 1": "https://media.prts.wiki/1/1e/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_skin1.png",
+            "Skin 2": "https://media.prts.wiki/6/64/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_skin2.png"
         }
     },
     {
@@ -2388,7 +2493,21 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/7/74/%E7%AB%8B%E7%BB%98_%E6%B8%A1%E6%A1%A5_1.png",
         "Elite 2": "https://media.prts.wiki/e/e9/%E7%AB%8B%E7%BB%98_%E6%B8%A1%E6%A1%A5_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/0/09/%E7%AB%8B%E7%BB%98_%E6%B8%A1%E6%A1%A5_skin1.png"
+        }
+    },
+    {
+        "original_name": "Warmy",
+        "url": "https://prts.wiki/w/温米",
+        "name_translated": "Warmy",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/1/15/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E7%B1%B3_1.png",
+        "Elite 2": "https://media.prts.wiki/2/20/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E7%B1%B3_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/d/dd/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E7%B1%B3_skin1.png"
+        }
     },
     {
         "original_name": "Weedy",
@@ -2402,6 +2521,16 @@
             "Skin 1": "https://media.prts.wiki/a/a5/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E8%92%82_skin1.png",
             "Skin 2": "https://media.prts.wiki/9/97/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E8%92%82_skin2.png"
         }
+    },
+    {
+        "original_name": "Astgenne the Lightchaser",
+        "url": "https://prts.wiki/w/溯光星源",
+        "name_translated": "Astgenne the Lightchaser",
+        "rarity": "6",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/a/a0/%E7%AB%8B%E7%BB%98_%E6%BA%AF%E5%85%89%E6%98%9F%E6%BA%90_1.png",
+        "Elite 2": "https://media.prts.wiki/f/f9/%E7%AB%8B%E7%BB%98_%E6%BA%AF%E5%85%89%E6%98%9F%E6%BA%90_2.png",
+        "skins": {}
     },
     {
         "original_name": "Goldenglow",
@@ -2543,7 +2672,8 @@
         "Elite 0": "https://media.prts.wiki/7/79/%E7%AB%8B%E7%BB%98_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_1.png",
         "Elite 2": "https://media.prts.wiki/d/dd/%E7%AB%8B%E7%BB%98_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/0/04/%E7%AB%8B%E7%BB%98_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_skin1.png"
+            "Skin 1": "https://media.prts.wiki/0/04/%E7%AB%8B%E7%BB%98_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_skin1.png",
+            "Skin 2": "https://media.prts.wiki/4/43/%E7%AB%8B%E7%BB%98_%E7%82%8E%E7%8B%B1%E7%82%8E%E7%86%94_skin2.png"
         }
     },
     {
@@ -2589,6 +2719,19 @@
         "skins": {
             "Skin 1": "https://media.prts.wiki/3/36/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_skin1.png",
             "Skin 2": "https://media.prts.wiki/1/1d/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_skin2.png"
+        }
+    },
+    {
+        "original_name": "Blaze",
+        "url": "https://prts.wiki/w/煌",
+        "name_translated": "Blaze",
+        "rarity": "6",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/3/38/%E7%AB%8B%E7%BB%98_%E7%85%8C_1.png",
+        "Elite 2": "https://media.prts.wiki/4/40/%E7%AB%8B%E7%BB%98_%E7%85%8C_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/9/97/%E7%AB%8B%E7%BB%98_%E7%85%8C_skin1.png",
+            "Skin 2": "https://media.prts.wiki/e/e6/%E7%AB%8B%E7%BB%98_%E7%85%8C_skin2.png"
         }
     },
     {
@@ -2853,6 +2996,16 @@
         }
     },
     {
+        "original_name": "Mantra",
+        "url": "https://prts.wiki/w/真言",
+        "name_translated": "Mantra",
+        "rarity": "6",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/e/ef/%E7%AB%8B%E7%BB%98_%E7%9C%9F%E8%A8%80_1.png",
+        "Elite 2": "https://media.prts.wiki/8/86/%E7%AB%8B%E7%BB%98_%E7%9C%9F%E8%A8%80_2.png",
+        "skins": {}
+    },
+    {
         "original_name": "Asbestos",
         "url": "https://prts.wiki/w/石棉",
         "name_translated": "Asbestos",
@@ -2886,6 +3039,18 @@
         "Elite 2": "https://media.prts.wiki/6/62/%E7%AB%8B%E7%BB%98_%E7%A0%BE_2.png",
         "skins": {
             "Skin 1": "https://media.prts.wiki/c/c3/%E7%AB%8B%E7%BB%98_%E7%A0%BE_skin1.png"
+        }
+    },
+    {
+        "original_name": "Yūtenji Nyamu",
+        "url": "https://prts.wiki/w/祐天寺若麦",
+        "name_translated": "Yūtenji Nyamu",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/5/5b/%E7%AB%8B%E7%BB%98_%E7%A5%90%E5%A4%A9%E5%AF%BA%E8%8B%A5%E9%BA%A6_1.png",
+        "Elite 2": "https://media.prts.wiki/d/d9/%E7%AB%8B%E7%BB%98_%E7%A5%90%E5%A4%A9%E5%AF%BA%E8%8B%A5%E9%BA%A6_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/1/1b/%E7%AB%8B%E7%BB%98_%E7%A5%90%E5%A4%A9%E5%AF%BA%E8%8B%A5%E9%BA%A6_skin1.png"
         }
     },
     {
@@ -3064,7 +3229,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/4/4c/%E7%AB%8B%E7%BB%98_%E7%BB%B4%E5%A8%9C%C2%B7%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A_1.png",
         "Elite 2": "https://media.prts.wiki/8/8e/%E7%AB%8B%E7%BB%98_%E7%BB%B4%E5%A8%9C%C2%B7%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/b/b3/%E7%AB%8B%E7%BB%98_%E7%BB%B4%E5%A8%9C%C2%B7%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A_skin1.png"
+        }
     },
     {
         "original_name": "Verdant",
@@ -3137,6 +3304,19 @@
         "Elite 0": "https://media.prts.wiki/5/5b/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png",
         "Elite 2": "https://media.prts.wiki/8/88/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_2.png",
         "skins": {}
+    },
+    {
+        "original_name": "Roberta",
+        "url": "https://prts.wiki/w/罗比菈塔",
+        "name_translated": "Roberta",
+        "rarity": "4",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/9/9d/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_1.png",
+        "Elite 2": "https://media.prts.wiki/c/c4/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/9/9e/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_skin1.png",
+            "Skin 2": "https://media.prts.wiki/6/69/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_skin2.png"
+        }
     },
     {
         "original_name": "La Pluma",
@@ -3243,7 +3423,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/a/a3/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_1.png",
         "Elite 2": "https://media.prts.wiki/e/e8/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/9/96/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_skin1.png"
+        }
     },
     {
         "original_name": "Irene",
@@ -3279,7 +3461,8 @@
         "Elite 0": "https://media.prts.wiki/c/c0/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_1.png",
         "Elite 2": "https://media.prts.wiki/2/21/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/e/e8/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_skin1.png"
+            "Skin 1": "https://media.prts.wiki/e/e8/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_skin1.png",
+            "Skin 2": "https://media.prts.wiki/8/86/%E7%AB%8B%E7%BB%98_%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_skin2.png"
         }
     },
     {
@@ -3369,6 +3552,18 @@
         }
     },
     {
+        "original_name": "Wakaba Mutsumi",
+        "url": "https://prts.wiki/w/若叶睦",
+        "name_translated": "Wakaba Mutsumi",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/c/c3/%E7%AB%8B%E7%BB%98_%E8%8B%A5%E5%8F%B6%E7%9D%A6_1.png",
+        "Elite 2": "https://media.prts.wiki/6/67/%E7%AB%8B%E7%BB%98_%E8%8B%A5%E5%8F%B6%E7%9D%A6_2.png",
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/8/88/%E7%AB%8B%E7%BB%98_%E8%8B%A5%E5%8F%B6%E7%9D%A6_skin1.png"
+        }
+    },
+    {
         "original_name": "Absinthe",
         "url": "https://prts.wiki/w/苦艾",
         "name_translated": "Absinthe",
@@ -3388,7 +3583,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/9/99/%E7%AB%8B%E7%BB%98_%E8%8D%92%E8%8A%9C%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_1.png",
         "Elite 2": "https://media.prts.wiki/0/0b/%E7%AB%8B%E7%BB%98_%E8%8D%92%E8%8A%9C%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/f/f6/%E7%AB%8B%E7%BB%98_%E8%8D%92%E8%8A%9C%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_skin1.png"
+        }
     },
     {
         "original_name": "Papyrus",
@@ -3598,7 +3795,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/7/77/%E7%AB%8B%E7%BB%98_%E8%A1%A1%E6%B2%99_1.png",
         "Elite 2": "https://media.prts.wiki/a/a1/%E7%AB%8B%E7%BB%98_%E8%A1%A1%E6%B2%99_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/3/3c/%E7%AB%8B%E7%BB%98_%E8%A1%A1%E6%B2%99_skin1.png"
+        }
     },
     {
         "original_name": "Figurino",
@@ -3608,7 +3807,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/1/10/%E7%AB%8B%E7%BB%98_%E8%A3%81%E5%BA%A6_1.png",
         "Elite 2": "https://media.prts.wiki/2/29/%E7%AB%8B%E7%BB%98_%E8%A3%81%E5%BA%A6_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/1/1b/%E7%AB%8B%E7%BB%98_%E8%A3%81%E5%BA%A6_skin1.png"
+        }
     },
     {
         "original_name": "Chestnut",
@@ -3703,7 +3904,8 @@
         "Elite 0": "https://media.prts.wiki/1/1e/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_1.png",
         "Elite 2": "https://media.prts.wiki/d/d7/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/0/0e/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_skin1.png"
+            "Skin 1": "https://media.prts.wiki/0/0e/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_skin1.png",
+            "Skin 2": "https://media.prts.wiki/f/ff/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_skin2.png"
         }
     },
     {
@@ -3738,7 +3940,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/2/2d/%E7%AB%8B%E7%BB%98_%E8%B4%BE%E7%BB%B4_1.png",
         "Elite 2": "https://media.prts.wiki/8/80/%E7%AB%8B%E7%BB%98_%E8%B4%BE%E7%BB%B4_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/8/80/%E7%AB%8B%E7%BB%98_%E8%B4%BE%E7%BB%B4_skin1.png"
+        }
     },
     {
         "original_name": "Akafuyu",
@@ -3912,7 +4116,8 @@
         "Elite 0": "https://media.prts.wiki/b/bd/%E7%AB%8B%E7%BB%98_%E9%85%B8%E7%B3%96_1.png",
         "Elite 2": "https://media.prts.wiki/2/2e/%E7%AB%8B%E7%BB%98_%E9%85%B8%E7%B3%96_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/3/3d/%E7%AB%8B%E7%BB%98_%E9%85%B8%E7%B3%96_skin1.png"
+            "Skin 1": "https://media.prts.wiki/3/3d/%E7%AB%8B%E7%BB%98_%E9%85%B8%E7%B3%96_skin1.png",
+            "Skin 2": "https://media.prts.wiki/a/a4/%E7%AB%8B%E7%BB%98_%E9%85%B8%E7%B3%96_skin2.png"
         }
     },
     {
@@ -4191,6 +4396,16 @@
         }
     },
     {
+        "original_name": "Snow Hunter",
+        "url": "https://prts.wiki/w/雪猎",
+        "name_translated": "Snow Hunter",
+        "rarity": "5",
+        "Elite 1": "",
+        "Elite 0": "https://media.prts.wiki/2/27/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%8C%8E_1.png",
+        "Elite 2": "https://media.prts.wiki/7/74/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%8C%8E_2.png",
+        "skins": {}
+    },
+    {
         "original_name": "Qanipalaat",
         "url": "https://prts.wiki/w/雪绒",
         "name_translated": "Qanipalaat",
@@ -4236,7 +4451,8 @@
         "Elite 0": "https://media.prts.wiki/4/4f/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_1.png",
         "Elite 2": "https://media.prts.wiki/2/27/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/5/5c/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_skin1.png"
+            "Skin 1": "https://media.prts.wiki/5/5c/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_skin1.png",
+            "Skin 2": "https://media.prts.wiki/5/52/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_skin2.png"
         }
     },
     {
@@ -4356,7 +4572,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/2/23/%E7%AB%8B%E7%BB%98_%E9%AA%8B%E9%A3%8E_1.png",
         "Elite 2": "https://media.prts.wiki/4/48/%E7%AB%8B%E7%BB%98_%E9%AA%8B%E9%A3%8E_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/8/8e/%E7%AB%8B%E7%BB%98_%E9%AA%8B%E9%A3%8E_skin1.png"
+        }
     },
     {
         "original_name": "Civilight Eterna",
@@ -4366,7 +4584,9 @@
         "Elite 1": "",
         "Elite 0": "https://media.prts.wiki/a/a8/%E7%AB%8B%E7%BB%98_%E9%AD%94%E7%8E%8B_1.png",
         "Elite 2": "https://media.prts.wiki/6/60/%E7%AB%8B%E7%BB%98_%E9%AD%94%E7%8E%8B_2.png",
-        "skins": {}
+        "skins": {
+            "Skin 1": "https://media.prts.wiki/8/82/%E7%AB%8B%E7%BB%98_%E9%AD%94%E7%8E%8B_skin1.png"
+        }
     },
     {
         "original_name": "Позёмка",
@@ -4498,63 +4718,27 @@
         }
     },
     {
-        "original_name": "Vulpisfoglia",
-        "url": "https://prts.wiki/w/忍冬",
-        "name_translated": "Vulpisfoglia",
-        "rarity": "6",
-        "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/c/ca/%E7%AB%8B%E7%BB%98_%E5%BF%8D%E5%86%AC_1.png",
-        "Elite 2": "https://media.prts.wiki/0/02/%E7%AB%8B%E7%BB%98_%E5%BF%8D%E5%86%AC_2.png",
-        "skins": {}
-    },
-    {
-        "original_name": "Ayerscarpe",
-        "url": "https://prts.wiki/w/断崖",
-        "name_translated": "Ayerscarpe",
+        "original_name": "Leizi",
+        "url": "https://prts.wiki/w/惊蛰",
+        "name_translated": "Leizi",
         "rarity": "5",
         "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/1/1b/%E7%AB%8B%E7%BB%98_%E6%96%AD%E5%B4%96_1.png",
-        "Elite 2": "https://media.prts.wiki/a/a6/%E7%AB%8B%E7%BB%98_%E6%96%AD%E5%B4%96_2.png",
+        "Elite 0": "https://media.prts.wiki/9/9f/%E7%AB%8B%E7%BB%98_%E6%83%8A%E8%9B%B0_1.png",
+        "Elite 2": "https://media.prts.wiki/c/cf/%E7%AB%8B%E7%BB%98_%E6%83%8A%E8%9B%B0_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/e/ed/%E7%AB%8B%E7%BB%98_%E6%96%AD%E5%B4%96_skin1.png"
+            "Skin 1": "https://media.prts.wiki/b/b4/%E7%AB%8B%E7%BB%98_%E6%83%8A%E8%9B%B0_skin1.png"
         }
     },
     {
-        "original_name": "Warmy",
-        "url": "https://prts.wiki/w/温米",
-        "name_translated": "Warmy",
+        "original_name": "Lappland",
+        "url": "https://prts.wiki/w/拉普兰德",
+        "name_translated": "Lappland",
         "rarity": "5",
         "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/1/15/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E7%B1%B3_1.png",
-        "Elite 2": "https://media.prts.wiki/2/20/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E7%B1%B3_2.png",
+        "Elite 0": "https://media.prts.wiki/7/75/%E7%AB%8B%E7%BB%98_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_1.png",
+        "Elite 2": "https://media.prts.wiki/f/fe/%E7%AB%8B%E7%BB%98_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_2.png",
         "skins": {
-            "Skin 1": "https://media.prts.wiki/d/dd/%E7%AB%8B%E7%BB%98_%E6%B8%A9%E7%B1%B3_skin1.png"
-        }
-    },
-    {
-        "original_name": "Blaze",
-        "url": "https://prts.wiki/w/煌",
-        "name_translated": "Blaze",
-        "rarity": "6",
-        "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/3/38/%E7%AB%8B%E7%BB%98_%E7%85%8C_1.png",
-        "Elite 2": "https://media.prts.wiki/4/40/%E7%AB%8B%E7%BB%98_%E7%85%8C_2.png",
-        "skins": {
-            "Skin 1": "https://media.prts.wiki/9/97/%E7%AB%8B%E7%BB%98_%E7%85%8C_skin1.png",
-            "Skin 2": "https://media.prts.wiki/e/e6/%E7%AB%8B%E7%BB%98_%E7%85%8C_skin2.png"
-        }
-    },
-    {
-        "original_name": "Roberta",
-        "url": "https://prts.wiki/w/罗比菈塔",
-        "name_translated": "Roberta",
-        "rarity": "4",
-        "Elite 1": "",
-        "Elite 0": "https://media.prts.wiki/9/9d/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_1.png",
-        "Elite 2": "https://media.prts.wiki/c/c4/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_2.png",
-        "skins": {
-            "Skin 1": "https://media.prts.wiki/9/9e/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_skin1.png",
-            "Skin 2": "https://media.prts.wiki/6/69/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_skin2.png"
+            "Skin 1": "https://media.prts.wiki/1/11/%E7%AB%8B%E7%BB%98_%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7_skin1.png"
         }
     }
 ]
